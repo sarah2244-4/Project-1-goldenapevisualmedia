@@ -16,7 +16,7 @@
 			href="https://fonts.googleapis.com/css?family=Roboto:400,700"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
 	</head>
 	<body>
 		<header>
@@ -55,12 +55,23 @@
 
 		<!-- hero -->
 
-		<div class="container-wrapper">
-			<img
-				src="/assets/images/camera.jpg"
-				class="img-fluid"
-				alt="camera hanging"
-			/>
+		<div class="container-fluid callout-container">
+			<div class="opaque-overlay">&nbsp;</div>
+			<div class="row">
+				<div class="col-12">
+					<section class="callout jumbotron text-center">
+						<h1 class="jumbotron-header">GoldenApe Visual Media</h1>
+						<p class="lead">Sports photographer</p>
+						<button
+							class="btn btn-lg btn--cta btn--red"
+							data-bs-toggle="modal"
+							data-bs-target="#signupmodal"
+						>
+							Contact me
+						</button>
+					</section>
+				</div>
+			</div>
 		</div>
 
 		<!-- image carousel -->
@@ -68,13 +79,25 @@
 		<div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="..." class="d-block w-100" alt="..." />
+					<img
+						src="/assets/images/boxing-training.jpg"
+						class="carousel-image d-block w-100"
+						alt="man punching punch bag with boxing gloves"
+					/>
 				</div>
 				<div class="carousel-item">
-					<img src="..." class="d-block w-100" alt="..." />
+					<img
+						src="/assets/images/fitness4-1.jpg"
+						class="carousel-image d-block w-100"
+						alt="woman getting ready to start race on race track"
+					/>
 				</div>
 				<div class="carousel-item">
-					<img src="..." class="d-block w-100" alt="..." />
+					<img
+						src="/assets/images/football-1.jpg"
+						class="carousel-image d-block w-100"
+						alt="american football scree"
+					/>
 				</div>
 			</div>
 			<button

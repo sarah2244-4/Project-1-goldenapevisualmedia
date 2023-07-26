@@ -1,0 +1,48 @@
+/* callout */
+
+.callout-container {
+	height: 100vh;
+
+	background: url(/assets/images/camera.jpg) no-repeat bottom right fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+}
+
+.jumbotron {
+	color: white;
+}
+
+/* .opaque-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+} */
+
+/* button */
+
+.btn {
+	border: 1px solid #666;
+	color: #666;
+	background-color: white;
+}
+
+.btn:hover {
+	border: 1px solid #666;
+	color: black;
+	background-color: white;
+}
+
+/* carousel */
+.carousel-image {
+	width: 100px;
+}
