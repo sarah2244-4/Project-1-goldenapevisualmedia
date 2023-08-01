@@ -6,9 +6,9 @@
 		<title>GoldenApe Visual Media</title>
 
 		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
 			rel="stylesheet"
-			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
 			crossorigin="anonymous"
 		/>
 
@@ -19,64 +19,161 @@
 		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
 	</head>
 	<body>
+		<!-- Header -->
+
 		<header>
-			<nav class="navbar navbar-expand-sm sticky-top">
-				<div class="container-fluid">
-					<a href="#" class="navbar-brand">
-						<img src="" alt="logo" />
-					</a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarTogglerDemo02"
-						aria-controls="navbarTogglerDemo02"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="navbar-collapse collapse" id="navbarTogglerDemo02">
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-							<li class="nav-item">
-								<a class="nav-link" href="/about">About</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/gallery">Gallery</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/contact">Contact me</a>
-							</li>
-						</ul>
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-sm fixed-top bg-body-tertiary">
+					<div class="container-fluid">
+						<a href="#" class="navbar-brand">
+							<!-- Add logo -->
+							<img
+								src=""
+								alt="GoldenApe Visual Media logo"
+								width="30"
+								height="24"
+							/>
+						</a>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarNav"
+							aria-controls="navbarNav"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="navbar-collapse collapse" id="navbarTogglerDemo02">
+							<ul
+								class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end"
+							>
+								<li class="nav-item">
+									<a class="nav-link" href="#about">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="/gallery">Gallery</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="/contact">Contact me</a>
+								</li>
+							</ul>
+						</div>
 					</div>
-				</div>
-			</nav>
+				</nav>
+			</div>
 		</header>
 
 		<!-- hero -->
 
-		<div class="container-fluid callout-container">
+		<div class="container-fluid hero-container">
 			<div class="opaque-overlay">&nbsp;</div>
 			<div class="row">
 				<div class="col-12">
-					<section class="callout jumbotron text-center">
-						<h1 class="jumbotron-header">GoldenApe Visual Media</h1>
-						<p class="lead">Sports photographer</p>
-						<button
-							class="btn btn-lg btn--cta btn--red"
-							data-bs-toggle="modal"
-							data-bs-target="#signupmodal"
-						>
-							Contact me
-						</button>
+					<section class="jumbotron text-center">
+						<h1 class="jumbotron-header handwriting">GoldenApe Visual Media</h1>
+						<p class="lead">Wedding and events photographer</p>
+						<button type="button" class="btn btn-primary">Contact</button>
+						<button type="button" class="btn btn-info">Gallery</button>
 					</section>
+				</div>
+			</div>
+		</div>
+
+		<!-- About -->
+
+		<div class="container" id="about">
+			<div class="row no-gutters">
+				<div class="col">
+					<div class="row no-gutters">
+						<div class="col-md-4 col-sm-6">
+							<img
+								class="profile-image"
+								src="/assets/images/iso-republic-mens-fashion-loose-cotton-shirt.jpg"
+								width="2974px"
+								height="4460px"
+							/>
+						</div>
+						<div class="col-md-8">
+							<!-- <p class="uppercase">Kristian Marrey</p>
+							<p class="uppercase">Events photographer</p>
+							<p>contact@goldenapevisualmedia.com</p>
+							<p>+01234567890</p> -->
+							<h2 class="handwriting uppercase section-about">Hello!</h2>
+							<p>
+								I am Kristian, a passionate photographer with a unique
+								background as a former boxer, and I specialize in freezing time
+								and preserving the magic of both weddings and various events.
+							</p>
+							<p>
+								Having spent years in the ring, I understand the raw intensity
+								and adrenaline that comes with every punch, every move, and
+								every moment of victory. Now, as a photographer, my goal is to
+								capture that same essence and emotion in every image I create.
+							</p>
+							<p>
+								From the electric atmosphere of boxing arenas to the thrill of
+								sporting events, I am determined to use my unique perspective as
+								a boxer to bring a fresh and captivating angle to my
+								photography. Just as I once studied my opponents in the ring, I
+								now study the events and athletes before me, seeking out the
+								perfect moments that convey the heart and soul of every
+								occasion.
+							</p>
+							<p>
+								My transition from boxer to photographer has been a natural
+								evolution, fueled by a passion for storytelling and a desire to
+								share the beauty of sports with the world. Through my lens, I
+								aim to reveal the dedication, discipline, and determination that
+								drives athletes to greatness, inspiring others to push their
+								boundaries and achieve their dreams.
+							</p>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<p>
+									From the tender love stories of weddings to the electric
+									energy of special events, I bring a fresh and captivating
+									perspective to every occasion. My journey from the ring to
+									behind the camera has instilled in me a profound appreciation
+									for emotions, connections, and the beauty of life's most
+									precious moments.
+								</p>
+								<p>
+									Behind the lens, I am more than just a photographer; I am a
+									dedicated storyteller with a passion for weaving tales through
+									images. I pride myself on my ability to capture the essence of
+									love, the vibrancy of events, and the joy of celebrations,
+									allowing you to relive those cherished memories time and time
+									again.
+								</p>
+								<p>
+									Whether you're planning your dream wedding or organizing an
+									unforgettable event, I would be honored to be part of your
+									special day. Let's collaborate to create a gallery of images
+									that will forever remind you of the beauty and magic you
+									shared with your loved ones during these milestone moments.
+								</p>
+								<h3 class="handwriting">
+									Thank you for considering me as your wedding and events
+									photographer.
+								</h3>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<!-- image carousel -->
 
-		<div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+		<div
+			id="carouselExampleAutoplaying"
+			class="carousel slide"
+			data-bs-ride="carousel"
+			data-bs-theme="dark"
+		>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img
@@ -123,13 +220,8 @@
 		<!-- footer -->
 
 		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-			crossorigin="anonymous"
-		></script>
-
-		<script
-			src="https://kit.fontawesome.com/ac0ffb0ab5.js"
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
 			crossorigin="anonymous"
 		></script>
 	</body>

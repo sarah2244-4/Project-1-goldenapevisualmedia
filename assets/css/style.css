@@ -1,6 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+* {
+	font-family: "Mukta", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* text styles */
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.handwriting {
+	font-family: "Permanent Marker", "Times New Roman", Times, serif;
+	position: relative;
+	text-align: center;
+	font-size: 2.2rem;
+}
+
+/* colors */
+
+/* nav */
+
 /* callout */
 
-.callout-container {
+.hero-container {
 	height: 100vh;
 
 	background: url(/assets/images/camera.jpg) no-repeat bottom right fixed;
@@ -19,14 +45,18 @@
 	color: white;
 }
 
-/* .opaque-overlay {
+.jumbotron-header {
+	font-size: 3rem;
+}
+
+.opaque-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
-} */
+}
 
 /* button */
 
@@ -42,7 +72,21 @@
 	background-color: white;
 }
 
+/* about me */
+
+.section-about {
+	padding-top: 50px;
+}
+.profile-image {
+	width: 80%;
+	height: 65%;
+	object-fit: cover;
+	object-position: 0 100%;
+	margin: 95px 30px 0 30px;
+}
+
 /* carousel */
-.carousel-image {
-	width: 100px;
+.carousel {
+	width: 40vw;
+	margin: 50px auto;
 }
