@@ -134,4 +134,24 @@
 
 /* gallery */
 
-$thumbnail-border-width: 5px;
+/* form */
+
+.form-input {
+	padding: 5px;
+	margin: 5px 0;
+	border: 2px solid #666
+	border-radius: 10px;
+	width: 100%;
+}
+
+.form-input:focus {
+	outline: none;
+	box-shadow: 1px 1px 1px 1px #666;
+}
+
+.contact-form {
+	width: 65vw;
+	margin: auto;
+	padding: 30px 0;
+}
+
