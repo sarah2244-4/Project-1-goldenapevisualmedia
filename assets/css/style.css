@@ -127,13 +127,11 @@
 	text-align: center;
 }
 
-@media only screen and (max-width: 00px) {
-	#footer-details {
-		padding: 0;
-	}
-}
-
 .rule-line {
 	width: 20px;
 	margin: 20px auto;
 }
+
+/* gallery */
+
+$thumbnail-border-width: 5px;
