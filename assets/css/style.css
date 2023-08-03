@@ -138,15 +138,16 @@
 
 .form-input {
 	padding: 5px;
-	margin: 5px 0;
-	border: 2px solid #666
+	margin-bottom: 15px;
+	border: 1px solid #c7c7c7;
 	border-radius: 10px;
 	width: 100%;
 }
 
 .form-input:focus {
 	outline: none;
-	box-shadow: 1px 1px 1px 1px #666;
+	box-shadow: 0 0 0 3px #dcb62e;
+	border: none;
 }
 
 .contact-form {
@@ -155,3 +156,16 @@
 	padding: 30px 0;
 }
 
+.form-control {
+	padding: 5px;
+	margin-bottom: 15px;
+	border: 1px solid #c7c7c7;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.form-control:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px #dcb62e;
+	border: none;
+}
