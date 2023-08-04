@@ -31,7 +31,7 @@
 /* callout */
 
 .hero-container {
-	height: 100vh;
+	height: 90vh;
 
 	background: url(/assets/images/camera.jpg) no-repeat bottom right fixed;
 	-webkit-background-size: cover;
@@ -53,14 +53,14 @@
 	font-size: 3rem;
 }
 
-.opaque-overlay {
+/* .opaque-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 /* button */
 
@@ -68,6 +68,7 @@
 	border: 1px solid #666;
 	color: #666;
 	background-color: white;
+	z-index: 1;
 }
 
 .btn:hover {
