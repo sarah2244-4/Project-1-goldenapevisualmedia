@@ -4,7 +4,7 @@ GoldenApe Visual Media is a photographer portfolio inspired by a friend who is b
 
 The intent of the website is to showcase the photographer's work and provide an easy way to contact them.
 
-The site is live, the link to this is found [here]()
+The site is live, the link to this is found [HERE](https://sarah2244-4.github.io/Project-1-goldenapevisualmedia/)
 
 ##Contents
 
@@ -146,7 +146,7 @@ display: block;
 
 As I used a textarea from Bootstrap with a responsive number of columns, the input was a different style to the rest of the form. I found the CSS used to style inputs on and finally changed the border radius, border and box shadow so they all matched.
 
-Once deployed Bootstrap, css stylesheets and images were not linked correctly. After some searching, I hadn't included all of the correct Bootstrap links and I changed some of my link paths to link the css and images correctly. 
+Once deployed Bootstrap, css stylesheets and images were not linked correctly. After some searching, I hadn't included all of the correct Bootstrap links and I changed some of my link paths to link the css and images correctly. The header image still wouldn't show up no matter how many different file paths I did. 
 
 
 ## Validating
@@ -182,8 +182,7 @@ HTML5 and CSS3 used.
 The site was deployed to GitHub pages. To do this the steps followed were:
 - In the GitHub repository, go to Settings
 - From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link can be found [HERE](https//)
+- The live link can be found [HERE](https://sarah2244-4.github.io/Project-1-goldenapevisualmedia/)
 
 ## Credits
 
