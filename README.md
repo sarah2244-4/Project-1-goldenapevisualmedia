@@ -75,7 +75,7 @@ Mukta was chosen for the rest of the site as it is a clean sans-serif font which
 
 All imagery used on the webiste is from a stock webiste which is referenced in the credits section. Images were chosen to give a pop of colour against the greyscale theme of the website. There is one black and white image so maintain some consistency in colour. 
 
-![Gallery images](/assets/images/gallery.JPG)
+![Gallery images](assets/images/gallery.JPG)
 
 ## Site Features
 
