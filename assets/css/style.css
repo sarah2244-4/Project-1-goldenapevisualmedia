@@ -31,7 +31,7 @@
 /* callout */
 
 .hero-container {
-	height: 90vh;
+	height: 50vh;
 
 	background: url(/assets/images/camera.jpg) no-repeat bottom right fixed;
 	-webkit-background-size: cover;
@@ -55,7 +55,7 @@
 
 /* button */
 
-.btn {
+.nav-btn {
 	border: none;
 	border-radius: 15px;
 	color: black;

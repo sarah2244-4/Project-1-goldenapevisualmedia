@@ -74,6 +74,8 @@ Mukta was chosen for the rest of the site as it is a clean sans-serif font which
 
 ###Imagery
 
+All imagery used on the webiste is from a stock webiste which is referenced in the credits section. 
+
 ##Site Features
 
 ###Existing Features
