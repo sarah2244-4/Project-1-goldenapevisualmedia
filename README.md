@@ -12,7 +12,7 @@ The site is live, the link to this is found [here]()
   - [Site Purpose](#site-purpose "Site Purpose")
   - [Site Goal](#site-goal "Site Goal")
   - [Audience](#audience "Audience")
-  - [Communication](#communication "Communication)
+  - [Communication](#communication "Communication")
   - [Existing User Aims](#existing-user-aims "Existing User Aims")
   - [New User Aims](#new-user-aims "New User Aims")
 
@@ -72,7 +72,9 @@ Mukta was chosen for the rest of the site as it is a clean sans-serif font which
 
 ### Imagery
 
-All imagery used on the webiste is from a stock webiste which is referenced in the credits section. 
+All imagery used on the webiste is from a stock webiste which is referenced in the credits section. Images were chosen to give a pop of colour against the greyscale theme of the website. There is one black and white image so maintain some consistency in colour. 
+
+![Gallery images](/assets/images/Gallery.JPG)
 
 ## Site Features
 
@@ -107,9 +109,9 @@ The footer has the business name, additional contact information, social media l
 
 ### Future Features
 
-A map to show the location once they are running out of a studio. 
-A booking form so people can select a service and book in an available time from a published calendar. 
-Clicking on a gallery image makes it larger to take up the full viewport. 
+- A map to show the location once they are running out of a studio. 
+- A booking form so people can select a service and book in an available time from a published calendar. 
+- Clicking on a gallery image makes it larger to take up the full viewport. 
 
 
 ## Testing 
@@ -140,28 +142,57 @@ As I used a textarea from Bootstrap with a responsive number of columns, the inp
 
 ## Validating
 
-All files pass through the [W3 Validator](https://validator.w3.org/) with no issues found. 
+- All files pass through the [W3 Validator](https://validator.w3.org/) with no issues found. 
 ![W3C Validator message](/assets/images/w3validator.JPG)
 
-The site opens in Chrome, Firefox and Safari. 
+- The site opens in Chrome, Firefox and Safari. 
 
-All links open to internal and external pages correctly. 
+- All links open to internal and external pages correctly. 
 
-It has a great Lighthouse performance and accessibility rating. 
+- It has a great Lighthouse performance and accessibility rating. 
 ![Lighthouse rating](/assets/images/lighthouse-rating.JPG)
 
 ## Technologies Used 
 
-
-
 ### Main Languages
+
+HTML5 and CSS3 used. 
 
 ### Frameworks, Libraries & Programs
 
+- Balsamiq cloud to design frameworks of the pages before development. 
+- Google fonts for the fonts.
+- Font Awesome for social media icons.
+- Bootstrap v5.3 for the responsive grid layout and carousel. 
+- Visual Studio Code to write code. 
+- GitHub Desktop to store repository and allow me to code using VS code. 
+- GitHub to store repository online. 
+
 ## Deployment
+
+The site was deployed to GitHub pages. To do this the steps followed were:
+- In the GitHub repository, navigate to Settings
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found [HERE](https//)
 
 ## Credits
 
 ### Content
 
+[W3 Schools](https://www.w3schools.com/css/css3_object-fit.asp) and [Digital Ocean](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit) helped me fix the profile image sizing. 
+
+(https://www.w3schools.com/css/css_form.asp) and (https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/) helped me style the form. 
+
 ### Media
+
+- The header image came from [Unsplash](https://unsplash.com/).
+- [Camera by Miss Zhang](https://unsplash.com/photos/jz0xIgcwyL0)
+
+- All other images came from [ISO Republic](https://isorepublic.com/).
+- [Boxer punching punch bag by Hermes Rivera](https://isorepublic.com/photo/boxing-training/)
+- [Runner starting a race by Shotstash](https://isorepublic.com/photo/woman-ready-to-run/)
+- [American football by Keith Johnston](https://isorepublic.com/photo/american-football-game/)
+- [Married couple laughing by Tom Pumford](https://isorepublic.com/photo/wedding-celebrations/)
+- [Surfers walking on beach by Wyncliffe](https://isorepublic.com/photo/water-sand-surfboard/)
+- [Runner stretching by Matt Moloney](https://isorepublic.com/photo/female-fitness-trainer/)
