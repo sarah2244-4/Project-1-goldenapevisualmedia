@@ -146,6 +146,8 @@ display: block;
 
 As I used a textarea from Bootstrap with a responsive number of columns, the input was a different style to the rest of the form. I found the CSS used to style inputs on and finally changed the border radius, border and box shadow so they all matched.
 
+Once deployed Bootstrap, css stylesheets and images were not linked correctly. After some searching, I hadn't included all of the correct Bootstrap links and I changed some of my link paths to link the css and images correctly. 
+
 
 ## Validating
 
@@ -178,7 +180,7 @@ HTML5 and CSS3 used.
 ## Deployment
 
 The site was deployed to GitHub pages. To do this the steps followed were:
-- In the GitHub repository, navigate to Settings
+- In the GitHub repository, go to Settings
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 - The live link can be found [HERE](https//)
