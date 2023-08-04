@@ -6,6 +6,8 @@ The intent of the website is to showcase the photographer's work and provide an 
 
 The site is live, the link to this is found [HERE](https://sarah2244-4.github.io/Project-1-goldenapevisualmedia/).
 
+![Website](/assets/images/capture.JPG)
+
 ##Contents
 
 - [UX](#UX)
