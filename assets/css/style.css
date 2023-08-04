@@ -110,7 +110,7 @@
 	line-height: 7px;
 	text-align: center;
 	color: #fafafa;
-	background: #8f8f8f;
+	background: #adadad;
 	transition: all 0.35s ease-in-out;
 	-moz-transition: all 0.35s ease-in-out;
 	-webkit-transition: all 0.35s ease-in-out;
@@ -136,6 +136,10 @@
 
 /* form */
 
+.form-label {
+	font-size: 16px;
+}
+
 .form-input {
 	padding: 5px;
 	margin-bottom: 15px;
@@ -146,7 +150,7 @@
 
 .form-input:focus {
 	outline: none;
-	box-shadow: 0 0 0 3px #dcb62e;
+	box-shadow: 0 0 0 2px #adadad;
 	border: none;
 }
 
@@ -166,6 +170,33 @@
 
 .form-control:focus {
 	outline: none;
-	box-shadow: 0 0 0 3px #dcb62e;
+	box-shadow: 0 0 0 2px #adadad;
 	border: none;
+}
+
+#submit {
+	padding: 5px 10px;
+	border: 1px solid #c7c7c7;
+	border-radius: 10px;
+	text-align: center;
+	background-color: white;
+}
+
+#submit:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px #adadad;
+	border: none;
+}
+
+#submit:hover {
+	background-color: #adadad;
+	transition: 0.5s;
+	border: none;
+	box-shadow: none;
+}
+
+form h1 {
+	font-size: 1.4rem;
+	text-align: center;
+	margin: 3em 0;
 }

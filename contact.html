@@ -86,11 +86,11 @@
 
 		<!-- contact form -->
 
-		<form
-			class="contact-form"
-			action="
-        "
-		>
+		<form class="contact-form" action="post">
+			<h1>
+				If you would like to contact me for any more information please fill out
+				this form.
+			</h1>
 			<fieldset>
 				<label for="fname" class="form-label">First name</label>
 				<input
@@ -123,17 +123,54 @@
 				<label for="phone" class="form-label">Phone</label>
 				<input type="tel" id="phone" name="phone" class="form-input" />
 
+				<legend class="form-label">Reason for enquiry</legend>
+
+				<div>
+					<input
+						type="radio"
+						id="services"
+						class="radio-input"
+						name="reason"
+						value="services"
+					/>
+					<label for="services" class="form-label">Services</label>
+				</div>
+
+				<div>
+					<input
+						type="radio"
+						id="prices"
+						class="radio-input"
+						name="reason"
+						value="prices"
+					/>
+					<label for="prices" class="form-label">Prices</label>
+				</div>
+
+				<div>
+					<input
+						type="radio"
+						id="other"
+						class="radio-input"
+						name="reason"
+						value="other"
+					/>
+					<label for="other" class="form-label">Other</label>
+				</div>
+				<br />
 				<label for="exampleFormControlTextarea1" class="form-label"
-					>Enquiry</label
+					>Message</label
 				>
+
 				<textarea
 					name="message"
 					id="exampleFormControlTextarea1"
 					rows="5"
 					class="form-control"
-					placeholder="Enter message..."
+					placeholder="Ask here..."
 					required
 				></textarea>
+				<button type="submit" id="submit">Submit enquiry</button>
 			</fieldset>
 		</form>
 
@@ -141,12 +178,20 @@
 
 		<footer class="container-fluid">
 			<div class="row" id="footer-details">
-				<div class="col-sm-6">
-					<h5 class="uppercase general-sub">goldenapevisualmedia</h5>
+				<div class="col-12 col-md-4">
+					<h5 class="uppercase general-sub">goldenape visual media</h5>
 					<hr class="rule-line" />
 					<p class="inline-block">Wedding and Events Photographer</p>
 				</div>
-				<div class="col-sm-6">
+
+				<div class="col-12 col-md-4">
+					<h5 class="uppercase general-sub">Contact</h5>
+					<hr class="rule-line" />
+					<p>contact@goldenapevisualmedia.com</p>
+					<p>+01234567890</p>
+				</div>
+
+				<div class="col-12 col-md-4">
 					<h5 class="uppercase general-sub">Social</h5>
 					<hr class="rule-line" />
 					<ul class="list-inline social-links">
