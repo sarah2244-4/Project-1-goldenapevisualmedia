@@ -54,3 +54,54 @@ Primarily male athletes aged 16-40, looking to expand to and men and women who w
 The design is minimilistic to make it clear how to navigate the site and to put emphasis on the images to allow the pictures to speak for themselves.
 
 ###Existing User Aims
+
+To contact to book in a servce, and view up to date images.
+
+###New User Aims
+
+To navigate the website quickly and easily, find out more about the photographer, view some of their portfolio, and contact the photographer.
+
+##Design
+
+###Colour Scheme
+
+The colour scheme is greyscale in order to maintain a minimililstic feel to empahsise the images. The hero image is also in black and white as this is part of the site design rather than an image to showcase. Elements are contrasting with black and white to make them stand out.  
+
+###Typography
+
+Permanent marker was used as it gives the sense of being handwritten. It was used on the site/business name 'GoldenApe Visual Media' and in the about me greeting and thank you as they make the about me message and business name more personal.
+Mukta was chosen for the rest of the site as it is a clean sans-serif font which reads cleanly and fits in with the clean site look.
+
+###Imagery
+
+##Site Features
+
+###Existing Features
+
+###Future Features
+
+##Testing 
+
+##Validating
+
+All files pass through the W3 Validator with no issues found. 
+![W3C Validator message html]()
+![W3C Validator message css]()
+
+The site opens in Chrome, Firefox and Safari. 
+
+##Unfixed Bugs
+
+##Technologies Used
+
+###Main Languages
+
+###Frameworks, Libraries & Programs
+
+##Deployment
+
+##Credits
+
+###Content
+
+###Media
