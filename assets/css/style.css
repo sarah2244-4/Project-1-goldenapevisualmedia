@@ -29,7 +29,7 @@
 .hero-container {
 	height: 50vh;
 
-	background: url(/assets/images/camera.jpg) no-repeat bottom right fixed;
+	background: url(/assets/images/iso-camera.jpg) no-repeat bottom right fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -123,8 +123,8 @@
 	font-size: 13px;
 	line-height: 7px;
 	text-align: center;
-	color: #fafafa;
-	background: #adadad;
+	color: black;
+	background: white;
 	transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
@@ -133,6 +133,7 @@
 
 .social-links li a i:hover {
 	background: black;
+	color: white;
 }
 
 #footer-details {
@@ -151,6 +152,10 @@
 }
 
 /* gallery */
+
+.img-thumbnail {
+	border: none;
+}
 
 /* form */
 
@@ -213,7 +218,7 @@
 	box-shadow: none;
 }
 
-form h1 {
+form h2 {
 	font-size: 1.4rem;
 	text-align: center;
 	margin: 3em 0;
