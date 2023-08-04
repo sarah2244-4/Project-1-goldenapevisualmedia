@@ -47,34 +47,32 @@
 
 .jumbotron {
 	color: white;
+	font-weight: 600;
 }
 
 .jumbotron-header {
 	font-size: 3rem;
 }
 
-/* .opaque-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-} */
-
 /* button */
 
 .btn {
-	border: 1px solid #666;
-	color: #666;
-	background-color: white;
-	z-index: 1;
-}
-
-.btn:hover {
-	border: 1px solid #666;
+	border: none;
+	border-radius: 15px;
 	color: black;
 	background-color: white;
+	font-weight: 600;
+	font-size: 1.2em;
+	padding: 10px 20px;
+	margin: 3px;
+}
+
+.btn:focus,
+.btn:hover,
+.btn:active {
+	background-color: black;
+	color: white;
+	box-shadow: none;
 }
 
 /* about me */
@@ -129,7 +127,7 @@
 }
 
 .social-links li a i:hover {
-	background: #e84610;
+	background: #767676;
 }
 
 #footer-details {
