@@ -22,13 +22,9 @@
 
 /* colors */
 
-.bg-body-tertiary {
-	color: black;
-}
 
-/* nav */
+/* header */
 
-/* callout */
 
 .hero-container {
 	height: 50vh;
@@ -98,6 +94,12 @@
 	}
 	.section-about {
 		margin: 2px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.profile-image {
+		margin-top: 5vh;
 	}
 }
 
