@@ -6,7 +6,7 @@ The intent of the website is to showcase the photographer's work and provide an 
 
 The site is live, the link to this is found [HERE](https://sarah2244-4.github.io/Project-1-goldenapevisualmedia/).
 
-![Website](/assets/images/capture.JPG)
+![Website](assets/images/capture.JPG)
 
 ##Contents
 
@@ -84,8 +84,8 @@ All imagery used on the webiste is from a stock webiste which is referenced in t
 #### Header
 This is the same across all 3 pages for consistency. It conatins links to 'About', 'Gallery' and 'Contact' so the pages are quick and easy to find. The buttons are animated so when you hover over them there is a slow contrasting colour change. 
 
-![Header](/assets/images/header.JPG)
-![Header buttons](/assets/images/header-button-animation.JPG)
+![Header](assets/images/header.JPG)
+![Header buttons](assets/images/header-button-animation.JPG)
 
 #### Landing Page 
 
@@ -93,28 +93,28 @@ The landing page is made up of an about me section, made up of text and an image
 
 There is an animated carousel that showcases a small selection of images so people can see some of the portfolio without having to visit the gallery page. This should make them want to click on the gallery page to view more. 
 
-![About me](/assets/images/about-me.JPG)
-![Carousel image](/assets/images/carousel.JPG)
-![Carousel second image](/assets/images/carousel-2.JPG)
+![About me](assets/images/about-me.JPG)
+![Carousel image](assets/images/carousel.JPG)
+![Carousel second image](assets/images/carousel-2.JPG)
 
 #### Gallery Page
 
 The gallery page consists of 6 thumbnail images, which are responsive to different page sizes so they are never too small. 
-![Gallery](/assets/images/gallery.JPG)
-![Responsive gallery](/assets/images/gallery-sm.JPG)
+![Gallery](assets/images/gallery.JPG)
+![Responsive gallery](assets/images/gallery-sm.JPG)
 
 #### Contact Page
 
 This page consists of a simple contact form. Input fields have rounded corners like the header buttons to maintain site consistency. The first input field is selected when loaded so users can start filling it out without clicking with their mouse. It is also clear when an input is selected by adding a box shadow. 
 
-![Form](/assets/images/form.JPG)
+![Form](assets/images/form.JPG)
 
 #### Footer
 
 The footer has the business name, additional contact information, social media links that have the same colours as the buttons in the header to maintain site-wide consistency. Again, the footer is responsive and the columns stack for a small screen. 
 
-![Footer](/assets/images/footer.JPG)
-![Social button colour](/assets/images/social-animation.JPG)
+![Footer](assets/images/footer.JPG)
+![Social button colour](assets/images/social-animation.JPG)
 
 ### Future Features
 
