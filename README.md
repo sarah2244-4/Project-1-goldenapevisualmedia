@@ -4,7 +4,7 @@ GoldenApe Visual Media is a photographer portfolio inspired by a friend who is b
 
 The intent of the website is to showcase the photographer's work and provide an easy way to contact them.
 
-The site is live, the link to this is found [HERE](https://sarah2244-4.github.io/Project-1-goldenapevisualmedia/)
+The site is live, the link to this is found [HERE](https://sarah2244-4.github.io/Project-1-goldenapevisualmedia/).
 
 ##Contents
 
@@ -146,7 +146,7 @@ display: block;
 
 As I used a textarea from Bootstrap with a responsive number of columns, the input was a different style to the rest of the form. I found the CSS used to style inputs on and finally changed the border radius, border and box shadow so they all matched.
 
-Once deployed Bootstrap, css stylesheets and images were not linked correctly. After some searching, I hadn't included all of the correct Bootstrap links and I changed some of my link paths to link the css and images correctly. The header image still wouldn't show up no matter how many different file paths I did. 
+Once deployed Bootstrap, css stylesheets and images were not linked correctly. After some searching, I hadn't included all of the correct Bootstrap links and I changed some of my link paths to link the css and images correctly. The header image still wouldn't show up no matter how many different file paths I did, but it turned out because I had replaced my file with a smaller file but kept the name, I needed to retype out the file again. I found this out by changing it to a different picture and then changing it back again. 
 
 
 ## Validating
@@ -194,10 +194,10 @@ The site was deployed to GitHub pages. To do this the steps followed were:
 
 ### Media
 
-- The header image came from [Unsplash](https://unsplash.com/).
+- The header image came from [Unsplash](https://unsplash.com/)
 - [Camera by Miss Zhang](https://unsplash.com/photos/jz0xIgcwyL0)
 
-- All other images came from [ISO Republic](https://isorepublic.com/).
+- All other images came from [ISO Republic](https://isorepublic.com/)
 - [Boxer punching punch bag by Hermes Rivera](https://isorepublic.com/photo/boxing-training/)
 - [Runner starting a race by Shotstash](https://isorepublic.com/photo/woman-ready-to-run/)
 - [American football by Keith Johnston](https://isorepublic.com/photo/american-football-game/)
