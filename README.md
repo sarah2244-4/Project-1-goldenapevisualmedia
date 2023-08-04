@@ -1,6 +1,6 @@
-#GoldenApe Visual Media
+# GoldenApe Visual Media
 
-GoldenApe Visual Media is a photographer portfolio written for a friend. The target audience is women and men over the age of 18 who are either getting married or are athletes and want simple photos that stand out.
+GoldenApe Visual Media is a photographer portfolio inspired by a friend who is beginning a sports and wedding photography business. The target audience is women and men over the age of 18 who are either getting married or are athletes and want simple photos that stand out and tell a story.
 
 The intent of the website is to showcase the photographer's work and provide an easy way to contact them.
 
@@ -15,20 +15,19 @@ The site is live, the link to this is found [here]()
   - [Communication](#communication "Communication")
   - [Existing User Aims](#existing-user-aims "Existing User Aims")
   - [New User Aims](#new-user-aims "New User Aims")
-
-* [Design](#design "Design")
+- [Design](#design "Design")
   - [Colour scheme](#colour-scheme "Colour Scheme")
   - [Typography](#typography "Typography")
   - [Imagery](#imagery "Imagery")
-* [Site Features](#site-features "Site Features")
+- [Site Features](#site-features "Site Features")
   - [Existing features](#existing-features "Existing Features")
   - [Future features](#future-features "Future Features")
-+ [Testing](#testing "Testing")
-+ [Validating](#validating "Validating")
-+ [Technlogies used](#technologies-used "Technologies Used")
+- [Testing](#testing "Testing")
+- [Validating](#validating "Validating")
+- [Technlogies used](#technologies-used "Technologies Used")
   - [Main languages](#main-languages "Main Languages")
   - [Frameworks, Libraries & Programs](#frameworks-libraries-programs "Frameworks, Libraries & Programs")
-+ [Deployment](#deployment "Deployment")
+- [Deployment](#deployment "Deployment")
 - [Credits](#credits "Credits")
   - [Content](#content "Content")
   - [Media](#media "Media")
@@ -57,7 +56,7 @@ To contact to book in a servce, and view up to date images.
 
 ### New User Aims
 
-To navigate the website quickly and easily, find out more about the photographer, view some of their portfolio, and contact the photographer.
+To navigate the website quickly and easily, find out more about the photographer and view their portfolio. To eventually contact the photographer and book a service.
 
 ## Design
 
@@ -74,7 +73,7 @@ Mukta was chosen for the rest of the site as it is a clean sans-serif font which
 
 All imagery used on the webiste is from a stock webiste which is referenced in the credits section. Images were chosen to give a pop of colour against the greyscale theme of the website. There is one black and white image so maintain some consistency in colour. 
 
-![Gallery images](/assets/images/Gallery.JPG)
+![Gallery images](/assets/images/gallery.JPG)
 
 ## Site Features
 
@@ -83,8 +82,8 @@ All imagery used on the webiste is from a stock webiste which is referenced in t
 #### Header
 This is the same across all 3 pages for consistency. It conatins links to 'About', 'Gallery' and 'Contact' so the pages are quick and easy to find. The buttons are animated so when you hover over them there is a slow contrasting colour change. 
 
-![Header](/assets/images/Header.JPG)
-![Header buttons](/assets/images/Header-button-animation.JPG)
+![Header](/assets/images/header.JPG)
+![Header buttons](/assets/images/header-button-animation.JPG)
 
 #### Landing Page 
 
@@ -92,20 +91,28 @@ The landing page is made up of an about me section, made up of text and an image
 
 There is an animated carousel that showcases a small selection of images so people can see some of the portfolio without having to visit the gallery page. This should make them want to click on the gallery page to view more. 
 
+![About me](/assets/images/about-me.JPG)
+![Carousel image](/assets/images/carousel.JPG)
+![Carousel second image](/assets/images/carousel-2.JPG)
+
 #### Gallery Page
 
 The gallery page consists of 6 thumbnail images, which are responsive to different page sizes so they are never too small. 
+![Gallery](/assets/images/gallery.JPG)
+![Responsive gallery](/assets/images/gallery-sm.JPG)
 
 #### Contact Page
 
 This page consists of a simple contact form. Input fields have rounded corners like the header buttons to maintain site consistency. The first input field is selected when loaded so users can start filling it out without clicking with their mouse. It is also clear when an input is selected by adding a box shadow. 
 
+![Form](/assets/images/form.JPG)
+
 #### Footer
 
 The footer has the business name, additional contact information, social media links that have the same colours as the buttons in the header to maintain site-wide consistency. Again, the footer is responsive and the columns stack for a small screen. 
 
-![Footer](/assets/images/Footer.JPG)
-![Social button colour](/assets/images/Social-animation.JPG)
+![Footer](/assets/images/footer.JPG)
+![Social button colour](/assets/images/social-animation.JPG)
 
 ### Future Features
 
