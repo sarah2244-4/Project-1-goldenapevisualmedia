@@ -47,7 +47,6 @@
 
 .jumbotron {
 	color: white;
-	font-weight: 600;
 }
 
 .jumbotron-header {
@@ -61,7 +60,7 @@
 	border-radius: 15px;
 	color: black;
 	background-color: white;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 1.2em;
 	padding: 10px 20px;
 	margin: 3px;
@@ -131,7 +130,7 @@
 }
 
 .social-links li a i:hover {
-	background: #767676;
+	background: black;
 }
 
 #footer-details {
@@ -143,6 +142,10 @@
 .rule-line {
 	width: 20px;
 	margin: 20px auto;
+}
+
+.footer-sub {
+	font-weight: 500;
 }
 
 /* gallery */
