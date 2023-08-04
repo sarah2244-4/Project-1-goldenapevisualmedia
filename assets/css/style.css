@@ -26,16 +26,13 @@
 
 .hero-container {
 	height: 50vh;
-
 	background: url(/assets/images/iso-camera.jpg) no-repeat bottom right fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	position: relative;
 }
 
