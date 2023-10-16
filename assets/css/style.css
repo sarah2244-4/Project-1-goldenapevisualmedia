@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;500;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 * {
@@ -16,6 +15,9 @@
 
 .handwriting {
 	font-family: "Shadows Into Light", "Times New Roman", Times, serif;
+}
+
+.center-text {
 	position: relative;
 	text-align: center;
 	font-size: 2.2rem;
@@ -90,7 +92,16 @@
 
 .hero-btn {
 	border-radius: 50%;
-	border: 1.5px solid white;
+	/* border: 1.5px solid white; */
+	background-color: white;
+	color: black;
+}
+
+.hero-btn:focus,
+.hero-btn:hover,
+.hero-btn:active {
+	background-color: black;
+	
 }
 
 /* hero */
@@ -329,6 +340,9 @@ footer {
 	box-shadow: 0 0 0 2px #B8860B;
 	border: none;
 	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 }
 
 form h2 {
