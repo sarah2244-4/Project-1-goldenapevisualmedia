@@ -89,7 +89,7 @@
 
 .hero-btn {
 	border-radius: 50%;
-	border: 2px solid white;
+	border: 1.5px solid white;
 }
 
 /* hero */
@@ -104,6 +104,7 @@
 	align-items: center;
 	justify-content: center;
 	position: relative;
+	margin-bottom: 5vh;
 }
 
 
@@ -168,6 +169,11 @@
 }
 
 /* footer */
+
+footer {
+	background-color: #B8860B22;
+	margin-top: 5vh;;
+}
 
 .social-links {
 	padding-bottom: 15px;
