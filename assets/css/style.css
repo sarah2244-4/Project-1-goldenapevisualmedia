@@ -24,6 +24,63 @@
 /* header */
 
 
+/* navbar */
+
+.navbar {
+	height: 15vh;
+}
+
+/* logo */
+
+/* circular-logo code for making a rectange a circlefrom https://www.webfx.com/blog/web-design/circular-images-css/ */
+.circular-logo {
+	display: inline-block;
+	position: relative;
+	height: 60px;
+	width: 60px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+#logo-image {
+	width: auto;
+	height: 100%;
+	margin-left: -30px;
+}
+
+.inline {
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	/* transform code from stack overflow https://stackoverflow.com/questions/8865458/how-do-i-vertically-center-text-with-css to get text to centre the logo */
+	transform: translateY(-50%);
+}
+
+/* button */
+
+.nav-btn {
+	border: none;
+	border-radius: 15px;
+	color: white;
+	font-weight: 500;
+	font-size: 1.2em;
+	padding: 10px 20px;
+	margin: 3px;
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.btn:focus,
+.btn:hover,
+.btn:active {
+	color: #B8860B;
+	box-shadow: none;
+}
+
+/* hero */
+
 .hero-container {
 	height: 50vh;
 	background: url('../images/iso-camera.jpg') no-repeat bottom right fixed;
@@ -42,31 +99,6 @@
 
 .jumbotron-header {
 	font-size: 3rem;
-}
-
-/* button */
-
-.nav-btn {
-	border: none;
-	border-radius: 15px;
-	color: black;
-	background-color: white;
-	font-weight: 500;
-	font-size: 1.2em;
-	padding: 10px 20px;
-	margin: 3px;
-	transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-webkit-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-}
-
-.btn:focus,
-.btn:hover,
-.btn:active {
-	background-color: black;
-	color: white;
-	box-shadow: none;
 }
 
 /* about me */
