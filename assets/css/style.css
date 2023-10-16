@@ -23,11 +23,6 @@
 
 /* header */
 
-
-/* navbar */
-
-
-
 /* logo */
 
 /* circular-logo code for making a rectange a circlefrom https://www.webfx.com/blog/web-design/circular-images-css/ */
@@ -67,9 +62,9 @@
 }
 
 
-/* button */
+/* buttons */
 
-.nav-btn {
+.btn {
 	border: none;
 	border-radius: 15px;
 	color: white;
@@ -77,6 +72,11 @@
 	font-size: 1.2em;
 	padding: 10px 20px;
 	margin: 3px;
+
+	border-radius: 70%;
+	border: 3px solid white;
+	margin: 15px;
+
 	transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
@@ -88,12 +88,13 @@
 .btn:active {
 	color: #B8860B;
 	box-shadow: none;
+	border: 3px solid #B8860B;
 }
 
 /* hero */
 
 .hero-container {
-	height: 50vh;
+	height: 65vh;
 	background: url('../images/iso-camera.jpg') no-repeat bottom right fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -104,13 +105,31 @@
 	position: relative;
 }
 
-.jumbotron {
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
+	/* https://dzuz14.medium.com/code-a-full-width-hero-background-image-with-transparent-overlay-95d757f8ff2c */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
+
+.overlay h1 {
+	padding-top: 20vh;
+}
+
 
 .jumbotron-header {
 	font-size: 3rem;
 }
+
 
 /* about me */
 
