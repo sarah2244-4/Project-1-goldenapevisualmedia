@@ -225,9 +225,11 @@ footer {
 
 .form-label {
 	font-size: 16px;
+	display: inline-block;
 }
 
 .form-input {
+	display: inline-block;
 	padding: 5px;
 	margin-bottom: 15px;
 	border: 1px solid #c7c7c7;
@@ -236,11 +238,19 @@ footer {
 	
 }
 
+
+.form-input:invalid {
+	border: 1px solid red;
+}
+
 .form-input:focus {
 	outline: none;
 	box-shadow: 0 0 0 2px #B8860B;
 	border: none;
 }
+
+
+
 
 .contact-form {
 	width: 65vw;
@@ -256,6 +266,10 @@ footer {
 	width: 100%;
 }
 
+.form-control:invalid {
+	border: 1px solid red;
+}
+
 .form-control:focus {
 	outline: none;
 	box-shadow: 0 0 0 2px #B8860B;
@@ -263,14 +277,14 @@ footer {
 }
 
 .radio-input {
-appearance: none;
-  background-color: #fff;
-  margin: 0;
+	appearance: none;
+  	background-color: #fff;
+    margin: 0;
   
-  width: 1em;
-  height: 1em;
-  border: 0.1em solid #c7c7c7;
-  border-radius: 50%;
+	width: 1em;
+	height: 1em;
+	border: 0.1em solid #c7c7c7;
+	border-radius: 50%;
 }
 
 .radio-input:focus {
@@ -278,6 +292,14 @@ appearance: none;
 	box-shadow: 0 0 0 2px #B8860B;
 	border: none;
 }
+
+.radio-input:checked {
+	outline: none;
+	box-shadow: none;
+	background-color: #c7c7c7;
+	border: none;
+}
+
 
 #submit {
 	padding: 5px 10px;
