@@ -99,14 +99,17 @@
 		<!-- photo gallery -->
 
 		<div class="container-fluid">
-			<div class="row">
+			<div class="row" >
 				<div class="col-12 col-sm-6 col-lg-4">
+					<!-- link to modal https://stackoverflow.com/questions/25023199/in-bootstrap-open-enlarge-image-in-modal -->
 					<img
 						src="assets/images/boxing-training.jpg"
 						alt="Boxer punching punch bag"
 						class="gallery-image img-thumbnail"
 						width="1200"
 						height="800"
+						
+						href="#modalOne" type="" class="" data-bs-toggle="modal" data-bs-target="#modalOne"
 					>
 				</div>
 				<div class="col-12 col-sm-6 col-lg-4">
@@ -116,6 +119,8 @@
 						class="gallery-image img-thumbnail"
 						width="1200"
 						height="800"
+
+						href="#modalTwo" type="" class="" data-bs-toggle="modal" data-bs-target="#modalTwo"
 					>
 				</div>
 				<div class="col-12 col-sm-6 col-lg-4">
@@ -125,6 +130,8 @@
 						class="gallery-image img-thumbnail"
 						width="1200"
 						height="800"
+
+						href="#modalThree" type="" class="" data-bs-toggle="modal" data-bs-target="#modalThree"
 					>
 				</div>
 				<div class="col-12 col-sm-6 col-lg-4">
@@ -134,6 +141,8 @@
 						class="gallery-image img-thumbnail"
 						width="1200"
 						height="800"
+
+						href="#modalFour" type="" class="" data-bs-toggle="modal" data-bs-target="#modalFour"
 					>
 				</div>
 				<div class="col-12 col-sm-6 col-lg-4">
@@ -143,6 +152,8 @@
 						class="gallery-image img-thumbnail"
 						width="1200"
 						height="800"
+
+						href="#modalFive" type="" class="" data-bs-toggle="modal" data-bs-target="#modalFive"
 					>
 				</div>
 				<div class="col-12 col-sm-6 col-lg-4">
@@ -152,10 +163,131 @@
 						class="gallery-image img-thumbnail"
 						width="1200"
 						height="800"
+
+						href="#modalSix" type="" class="" data-bs-toggle="modal" data-bs-target="#modalSix"
 					>
 				</div>
 			</div>
 		</div>
+  
+		<!-- Modals -->
+
+		<!-- Modal One -->
+
+		<div class="modal fade" id="modalOne" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-scrollable">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img
+					src="assets/images/boxing-training.jpg"
+					alt="Boxer punching punch bag"
+					class="modal-image img-fluid"
+
+				>
+				</div>
+			  </div>
+			</div>
+		</div>
+
+		<!-- Modal Two -->
+
+		<div class="modal fade" id="modalTwo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-scrollable">
+			<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<img
+				src="assets/images/fitness4-1.jpg"
+				alt="Runner starting a race"
+				class="modal-image img-fluid"
+
+			>
+			</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Modal Three -->
+
+		<div class="modal fade" id="modalThree" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-scrollable">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img
+					src="assets/images/football-1.jpg"
+					alt="American football"
+					class="modal-image img-fluid"
+				>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+		  <!-- Modal Four -->
+
+		  <div class="modal fade" id="modalFour" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-scrollable">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img
+					src="assets/images/wedding-celebrations.jpg"
+					alt="Married couple laughing"
+					class="modal-image img-fluid"
+				>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+		  <!-- Modal Five -->
+
+		  <div class="modal fade" id="modalFive" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-scrollable">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img
+					src="assets/images/iso-republic-beach-surfers.jpg"
+						alt="Surfers walking on beach"
+					class="modal-image img-fluid"
+
+				>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+		  <!-- Modal Six -->
+
+		  <div class="modal fade" id="modalSix" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-scrollable">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img
+					src="assets/images/iso-republic-fitness-stretching.jpg"
+						alt="Runner stretching"
+					class="modal-image img-fluid"
+				>
+				</div>
+			  </div>
+			</div>
+		  </div>
 
 		<!-- footer -->
 

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;500;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 * {
 	font-family: "Mukta", sans-serif;
@@ -14,7 +15,7 @@
 }
 
 .handwriting {
-	font-family: "Permanent Marker", "Times New Roman", Times, serif;
+	font-family: "Shadows Into Light", "Times New Roman", Times, serif;
 	position: relative;
 	text-align: center;
 	font-size: 2.2rem;
@@ -188,7 +189,7 @@ footer {
 	line-height: 7px;
 	text-align: center;
 	color: black;
-	background: white;
+	background: #B8860B33;
 	transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
@@ -221,15 +222,18 @@ footer {
 	border: none;
 }
 
+.modal-image {
+	max-height: 90%;
+	max-width: 90%;
+}
+
 /* form */
 
 .form-label {
 	font-size: 16px;
-	display: inline-block;
 }
 
 .form-input {
-	display: inline-block;
 	padding: 5px;
 	margin-bottom: 15px;
 	border: 1px solid #c7c7c7;
@@ -238,9 +242,12 @@ footer {
 	
 }
 
+.form-input:required {
+	z-index: 1101;
+}
 
 .form-input:invalid {
-	border: 1px solid red;
+	border: 1.5px solid red;
 }
 
 .form-input:focus {
@@ -265,6 +272,8 @@ footer {
 	border-radius: 10px;
 	width: 100%;
 }
+
+
 
 .form-control:invalid {
 	border: 1px solid red;
