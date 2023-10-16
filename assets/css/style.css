@@ -227,11 +227,12 @@
 	border: 1px solid #c7c7c7;
 	border-radius: 10px;
 	width: 100%;
+	
 }
 
 .form-input:focus {
 	outline: none;
-	box-shadow: 0 0 0 2px #adadad;
+	box-shadow: 0 0 0 2px #B8860B;
 	border: none;
 }
 
@@ -251,7 +252,24 @@
 
 .form-control:focus {
 	outline: none;
-	box-shadow: 0 0 0 2px #adadad;
+	box-shadow: 0 0 0 2px #B8860B;
+	border: none;
+}
+
+.radio-input {
+appearance: none;
+  background-color: #fff;
+  margin: 0;
+  
+  width: 1em;
+  height: 1em;
+  border: 0.1em solid #c7c7c7;
+  border-radius: 50%;
+}
+
+.radio-input:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px #B8860B;
 	border: none;
 }
 
@@ -265,15 +283,15 @@
 
 #submit:focus {
 	outline: none;
-	box-shadow: 0 0 0 2px #adadad;
+	box-shadow: 0 0 0 2px #B8860B;
 	border: none;
 }
 
 #submit:hover {
-	background-color: #adadad;
-	transition: 0.5s;
+	outline: none;
+	box-shadow: 0 0 0 2px #B8860B;
 	border: none;
-	box-shadow: none;
+	transition: 0.5s;
 }
 
 form h2 {
