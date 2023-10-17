@@ -96,36 +96,63 @@ The buttons are animated so that when you hover over them there is a slow contra
 
 ### Hero Image
 
-Beneath the navigation bar there is a hero image, which is the same across all pages for consistency. 
+Beneath the navigation bar there is a hero image, which is the same across all main pages for consistency. 
+
+The hero image doesn't show on the 404 page as it took away from the 404 error message, and the main aim of this page is to display the error and direct them back to an existing page. It also doesn't appear on the thank you page as a form has already been submitted so the enquire button isn't important at this point. 
+
+The hero image contains information on the type of photographer, which is main information people will look for when they acess the site. It also features an enquiry button so grab attention and cause more users to click it to fill in the contact form. 
 
 #### About page  
 
-The landing page is made up of an about me section, made up of text and an image. This has been made responsive so the image doesn't interfere with the paragraph text below it when resizing. 
+The landing page is made up of an about me section, made up of text and an image. 
 
-There is an animated carousel that showcases a small selection of images so people can see some of the portfolio without having to visit the gallery page. This should make them want to click on the gallery page to view more. 
+The text wraps around the image and this is responsive to all screen sizes. Small screen sizes would only have a very thin column of text next to the image, so this was changed so the image appears above the text to make it mroe readable. 
+
+There is an animated carousel that showcases a small selection of images so people can see some of the portfolio while reading the about me section without having to visit the gallery page. This should make them want to click on the gallery page to view more. 
 
 ![About me](assets/images/about-me.JPG)
 ![Carousel image](assets/images/carousel.JPG)
 ![Carousel second image](assets/images/carousel-2.JPG)
 
+#### Footer
+
+The footer contains the business name, additional contact information and social media links.
+
+The background is a light gold to separate it from the body so that it subtly stands out. 
+
+The social media links are coloured slightly darker to show they are links and are animated to change colour when the mouse hovers over or they are clicked. 
+
+It is responsive and the columns stack for a smaller screen size as they don't fit across the page.
+
+![Footer](assets/images/footer.JPG)
+![Social button colour](assets/images/social-animation.JPG)
+
 #### Gallery Page
 
-The gallery page consists of 6 thumbnail images, which are responsive to different page sizes so they are never too small. 
+The gallery page consists of 6 thumbnail images.
+
+The thumbnails are responsive to different page sizes so they are never too small. They stack in a small screen, and as it gets bigger are in rows of 2 or 3 across.
+
+When an image is clicked, it will appear larger in a modal. This is particularly useful for the larger screen sizes where it makes a large difference to the image size.
+
 ![Gallery](assets/images/gallery.JPG)
 ![Responsive gallery](assets/images/gallery-sm.JPG)
 
 #### Contact Page
 
-This page consists of a simple contact form. Input fields have rounded corners like the header buttons to maintain site consistency. The first input field is selected when loaded so users can start filling it out without clicking with their mouse. It is also clear when an input is selected by adding a box shadow. 
+This page contains a simple contact form. 
+
+The first input field is autofocused when loaded so the contact form is loaded straight into view and users can start filling it out without clicking with their mouse. 
+
+Selected input have a box shadow so it is clear when an input is selected. This is particularly useful if a user is using the tab key to navigate the form.
+
+The borders for required inputs are red when they contain invalid information to provide a visual way of showing they need completing.
 
 ![Form](assets/images/form.JPG)
 
-#### Footer
+### Thank You Page
 
-The footer has the business name, additional contact information, social media links that have the same colours as the buttons in the header to maintain site-wide consistency. Again, the footer is responsive and the columns stack for a small screen. 
-
-![Footer](assets/images/footer.JPG)
-![Social button colour](assets/images/social-animation.JPG)
+### 404 Page
 
 ### Future Features
 
