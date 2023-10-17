@@ -137,6 +137,13 @@
 
 .overlay h1 {
 	padding-top: 20vh;
+	font-size: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+	.overlay h1 {
+		font-size: 2.5rem;
+	}
 }
 
 
@@ -359,9 +366,22 @@ form h2 {
 }
 
 .title-404, .title-thank-you {
-	font-size: 6rem;
 	padding-top: 10vh;
 	color: #B8860B;
+}
+
+.title-404 {
+	font-size: 6rem;
+}
+
+.title-thank-you {
+	font-size: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+	.title-thank-you {
+		font-size: 2.5rem;
+	}
 }
 
 .p-404, .p-thank-you {
