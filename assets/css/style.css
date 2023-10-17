@@ -354,21 +354,21 @@ form h2 {
 
 /* 404 page */
 
-.background-404 {
+.body-color {
 	background-color: #B8860B33;
 }
 
-.title-404 {
+.title-404, .title-thank-you {
 	font-size: 6rem;
 	padding-top: 10vh;
 	color: #B8860B;
 }
 
-.p-404 {
+.p-404, .p-thank-you {
 	padding: 10vh 0;
 }
 
-.link-404 {
+.link-home {
 	color: black;
 	text-decoration: none;
 	transition: all 0.5s ease;
@@ -377,6 +377,6 @@ form h2 {
 	-o-transition: all 0.5s ease;
 }
 
-.link-404:hover {
+.link-home:hover {
 	color: #B8860B;
 }
