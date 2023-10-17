@@ -98,7 +98,7 @@
 
 		<!-- contact form -->
 
-		<form class="contact-form" method="post" action="thank-you.html">
+		<form class="contact-form" method="get" action="thank-you.html">
 			<h2>
 				If you would like to contact me for any more information please fill out
 				this form.
@@ -113,15 +113,17 @@
 					required
 					autofocus
 				>
+				<br>
 
 				<label for="lname" class="form-label">Last name *</label>
 				<input
 					type="text"
 					id="lname"
-					name="fname"
+					name="lname"
 					class="form-input"
 					required
 				>
+				<br>
 
 				<label for="email" class="form-label">Email *</label>
 				<input
@@ -131,9 +133,11 @@
 					class="form-input"
 					required
 				>
+				<br>
 
 				<label for="phone" class="form-label">Phone</label>
 				<input type="tel" id="phone" name="phone" class="form-input" >
+				<br>
 
 				<p class="form-label">Reason for enquiry</p>
 
@@ -169,7 +173,8 @@
 					>
 					<label for="other" class="form-label">Other</label>
 				</div>
-				<br >
+				<br>
+
 				<label for="exampleFormControlTextarea1" class="form-label"
 					>Message *</label
 				>
