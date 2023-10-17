@@ -34,41 +34,46 @@ The site is live, the link to this is found [HERE](https://sarah2244-4.github.io
   - [Content](#content "Content")
   - [Media](#media "Media")
 
-## UX
+## User Experience UX
 
-### Site Purpose
+### Goal
 
-The site is designed to show information about the photographer, their images and a way to contact them. The photographer is a beginner so the site has minimal content to showcase what they have currently done.
+The goal of the site is for a clear, intiuitive website that contains all relevant information for users about the photographer. The photographer's goal is to introduce themselves and showcase a portfolio of images. They would also like to provide a way for users to communicate with them to find out more information or book a service. 
+Users should be able to view images easily and intuitively navigate the website to find out more about the photographer, view more images and contact them for more information. 
 
-### Site Goal
+### Users
 
-The two goals of the site is to showcase their portfolio including most recent images as the photographer gains more experience with links to social media for more work. It should also provide a clear way to contact the photographer.
+Users will be adults looking for a professional photographer to shoot their event. They will be interested in viewing a selection of the photographer's images and contacting the photographer for more information. They may also want to find out availability or how a booking is run. 
 
-### Audience
+-- The design is minimilistic to make it clear how to navigate the site and to put emphasis on the images to allow the pictures to speak for themselves.
 
-Primarily male athletes aged 16-40, looking to expand to and men and women who want to get married. They are looking for professional photos that showcase action shots and the atmosphere.
+### New User Stories
 
-### Communication
+A first time user of the site wants to be able to:
+Easily and intuitively navigate the site
+Find out what kind of photos the photographer takes
+Browse an existing portfolio of images
+View content on their social media
+Contact the photographer with any personal questions they may have
+Book a service
 
-The design is minimilistic to make it clear how to navigate the site and to put emphasis on the images to allow the pictures to speak for themselves.
+### Existing User Stories
 
-### Existing User Aims
+An existing user wants to be able to:
+Contact the photographer easily
+View up to date images
+Find links to social media accounts
 
-To contact to book in a servce, and view up to date images.
-
-### New User Aims
-
-To navigate the website quickly and easily, find out more about the photographer and view their portfolio. To eventually contact the photographer and book a service.
-
-## Design
+## UX Scope Design
 
 ### Colour Scheme
 
-The colour scheme is greyscale in order to maintain a minimililstic feel to empahsise the images. The hero image is also in black and white as this is part of the site design rather than an image to showcase. Elements are contrasting with black and white to make them stand out.  
+The colour scheme of the site is greyscale in order to maintain a minimililstic feel to empahsise the images. There is a pop of gold to match the colours from the logo. Elements are contrasting with black and white to make them stand out.  
 
 ### Typography
 
-Permanent marker was used as it gives the sense of being handwritten. It was used on the site/business name 'GoldenApe Visual Media' and in the about me greeting and thank you as they make the about me message and business name more personal.
+The handwritten font Shadows Into Light was chosen to provide a more personal feel. It was used on the site/business name 'Golden Ape Visual Media' and in the about me greeting and thank you as they make the about me message and business name more personal.
+
 Mukta was chosen for the rest of the site as it is a clean sans-serif font which reads cleanly and fits in with the clean site look.
 
 ### Imagery
@@ -77,17 +82,23 @@ All imagery used on the webiste is from a stock webiste which is referenced in t
 
 ![Gallery images](assets/images/gallery.JPG)
 
-## Site Features
-
 ### Existing Features
 
-#### Header
-This is the same across all 3 pages for consistency. It conatins links to 'About', 'Gallery' and 'Contact' so the pages are quick and easy to find. The buttons are animated so when you hover over them there is a slow contrasting colour change. 
+#### Navigation Bar
+This is the same across all pages for consistency. It conatins links to 'About', 'Gallery' and 'Contact Me' so the pages are quick and easy to find. The logo is also linked to the 'About' (home) page. Every page is linked so there is no need to use the browser back button. 
+
+There is a toggle button for small screens as the whole bar doesn't fit across the top. This is inuitive to use as it appears on many sites.
+
+The buttons are animated so that when you hover over them there is a slow contrasting colour change. 
 
 ![Header](assets/images/header.JPG)
 ![Header buttons](assets/images/header-button-animation.JPG)
 
-#### Landing Page 
+### Hero Image
+
+Beneath the navigation bar there is a hero image, which is the same across all pages for consistency. 
+
+#### About page  
 
 The landing page is made up of an about me section, made up of text and an image. This has been made responsive so the image doesn't interfere with the paragraph text below it when resizing. 
 
