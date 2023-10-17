@@ -64,51 +64,65 @@ Contact the photographer easily
 View up to date images
 Find links to social media accounts
 
-## UX Scope Design
+## UX Skeleton
+
+### Wireframes
+
+### Design choices
+
+- The website is as consistent as possible across all screen sizes. 
+- I chose to use Bootstrap to help with responsiveness as this site would likely be accessed on both mobile and desktop by different age groups.
+- It was important the gallery images could be viewed clearly as it's a main feature, which is why I made the decision to enlarge them in a modal.
+
+## UX Surface 
 
 ### Colour Scheme
 
-The colour scheme of the site is greyscale in order to maintain a minimililstic feel to empahsise the images. There is a pop of gold to match the colours from the logo. Elements are contrasting with black and white to make them stand out.  
+- The colour scheme of the site is greyscale in order to maintain a minimililstic feel to empahsise the images. There is a pop of gold to match the colours from the logo. Elements are contrasting with black and white to make them stand out.  
 
 ### Typography
 
-The handwritten font Shadows Into Light was chosen to provide a more personal feel. It was used on the site/business name 'Golden Ape Visual Media' and in the about me greeting and thank you as they make the about me message and business name more personal.
-
-Mukta was chosen for the rest of the site as it is a clean sans-serif font which reads cleanly and fits in with the clean site look.
+- The handwritten font Shadows Into Light was chosen to provide a more personal feel. It was used on the site/business name 'Golden Ape Visual Media' and in the about me greeting and thank you as they make the about me message and business name more personal.
+- Mukta was chosen for the rest of the site as it is a clean sans-serif font which reads cleanly and fits in with the clean site look.
 
 ### Imagery
 
-All imagery used on the webiste is from a stock webiste which is referenced in the credits section. Images were chosen to give a pop of colour against the greyscale theme of the website. There is one black and white image so maintain some consistency in colour. 
+- All imagery used on the webiste is from a stock webiste which is referenced in the credits section. Images were chosen to give a pop of colour against the greyscale theme of the website. There is one black and white image so maintain some consistency in colour. 
 
 ![Gallery images](assets/images/gallery.JPG)
+
+### Effects 
+
+- Links are animated to change colour when a mouse hovers over them so they know they can click them. 
+
+## UX Scope Design
 
 ### Existing Features
 
 #### Navigation Bar
-This is the same across all pages for consistency. It conatins links to 'About', 'Gallery' and 'Contact Me' so the pages are quick and easy to find. The logo is also linked to the 'About' (home) page. Every page is linked so there is no need to use the browser back button. 
 
-There is a toggle button for small screens as the whole bar doesn't fit across the top. This is inuitive to use as it appears on many sites.
-
-The buttons are animated so that when you hover over them there is a slow contrasting colour change. 
+- The logo and company name is on the left and the links are clear and easy to find on the right hand side.
+- This is the same across all pages for consistency. 
+- The logo is linked to the 'About' (home) page. 
+- Every main page for the site is linked so there is no need to use the browser back button. 
+- There is a toggle button on the navigation bar for small screens as the whole bar doesn't fit across the top. This is inuitive to use as it appears on many sites.
+- The buttons are animated so that when you hover over them there is a slow contrasting colour change to make it clear when you are able to click on it. 
 
 ![Header](assets/images/header.JPG)
 ![Header buttons](assets/images/header-button-animation.JPG)
 
 ### Hero Image
 
-Beneath the navigation bar there is a hero image, which is the same across all main pages for consistency. 
+- Beneath the navigation bar there is a hero image, which is the same across all main pages for consistency. 
+- It features an enquiry button to focus users attention to the fact that there is a way to enquire more and encourage more users to fill in the contact form. 
+- The hero image doesn't show on the 404 page as it took away from the 404 error message, and the main aim of this page is to display the error and direct them back to an existing page. 
+- It also doesn't appear on the thank you page as a form has already been submitted so the enquire button isn't important at this point. 
 
-The hero image doesn't show on the 404 page as it took away from the 404 error message, and the main aim of this page is to display the error and direct them back to an existing page. It also doesn't appear on the thank you page as a form has already been submitted so the enquire button isn't important at this point. 
+#### About Page  
 
-The hero image contains information on the type of photographer, which is main information people will look for when they acess the site. It also features an enquiry button so grab attention and cause more users to click it to fill in the contact form. 
-
-#### About page  
-
-The landing page is made up of an about me section, made up of text and an image. 
-
-The text wraps around the image and this is responsive to all screen sizes. Small screen sizes would only have a very thin column of text next to the image, so this was changed so the image appears above the text to make it mroe readable. 
-
-There is an animated carousel that showcases a small selection of images so people can see some of the portfolio while reading the about me section without having to visit the gallery page. This should make them want to click on the gallery page to view more. 
+- The landing page gives inforamtion about the photographer so users get an introduction and are drawn into the site.
+- The about me text wraps around the image and this is responsive to all screen sizes. Small screen sizes would only have a very thin column of text next to the image, so this was changed so the image appears above the text to make it mroe readable. 
+- There is an animated carousel that showcases a small selection of images so people can see some of the portfolio while reading the about me section without having to visit the gallery page. This should make them want to click on the gallery page to view more. 
 
 ![About me](assets/images/about-me.JPG)
 ![Carousel image](assets/images/carousel.JPG)
@@ -116,50 +130,51 @@ There is an animated carousel that showcases a small selection of images so peop
 
 #### Footer
 
-The footer contains the business name, additional contact information and social media links.
-
-The background is a light gold to separate it from the body so that it subtly stands out. 
-
-The social media links are coloured slightly darker to show they are links and are animated to change colour when the mouse hovers over or they are clicked. 
-
-It is responsive and the columns stack for a smaller screen size as they don't fit across the page.
+- The footer provides important contact information for users and clear social media links.
+- The background is a light gold to separate it from the body so that it subtly stands out. 
+- The social media links are coloured slightly darker to show they are links and are animated to change colour when the mouse hovers over or they are clicked. 
+- It is responsive and the columns stack for a smaller screen size as they don't fit across the page.
 
 ![Footer](assets/images/footer.JPG)
 ![Social button colour](assets/images/social-animation.JPG)
 
 #### Gallery Page
 
-The gallery page consists of 6 thumbnail images.
+- The gallery page consists of 6 thumbnail images.
 
-The thumbnails are responsive to different page sizes so they are never too small. They stack in a small screen, and as it gets bigger are in rows of 2 or 3 across.
+- The thumbnails are responsive to different page sizes so they are never too small. They stack in a small screen, and as it gets bigger are in rows of 2 or 3 across.
 
-When an image is clicked, it will appear larger in a modal. This is particularly useful for the larger screen sizes where it makes a large difference to the image size.
+- When an image is clicked, it will appear larger in a modal. This is particularly useful for the larger screen sizes where it makes a large difference to the image size.
 
 ![Gallery](assets/images/gallery.JPG)
 ![Responsive gallery](assets/images/gallery-sm.JPG)
 
 #### Contact Page
 
-This page contains a simple contact form. 
-
-The first input field is autofocused when loaded so the contact form is loaded straight into view and users can start filling it out without clicking with their mouse. 
-
-Selected input have a box shadow so it is clear when an input is selected. This is particularly useful if a user is using the tab key to navigate the form.
-
-The borders for required inputs are red when they contain invalid information to provide a visual way of showing they need completing.
+- This page contains a simple contact form. 
+- The first input field is autofocused when loaded so the contact form is loaded straight into view and users can start filling it out without clicking with their mouse. 
+- Selected input have a box shadow so it is clear when an input is selected. This is particularly useful if a user is using the tab key to navigate the form.
+- The borders for required inputs are red when they contain invalid information to provide a visual way of showing the input needs completing.
 
 ![Form](assets/images/form.JPG)
 
 ### Thank You Page
 
+- This page was laods when a contact form has been submitted so users recieve feedback that they have submitted their form.
+- The handwriting font was chosen as the thank you message to provide a personal feel. 
+- Users are directed back to home to encourage them to continue exploring the site.
+
 ### 404 Page
+
+- This page was customised to maintain site-wide consistency and povide a clear direct route back to the home page along with the 404 error message.
+- The home link has been made clear as it is in bold and animates when a mouse hovers over it. 
 
 ### Future Features
 
-- A map to show the location once they are running out of a studio. 
-- A booking form so people can select a service and book in an available time from a published calendar. 
-- Clicking on a gallery image makes it larger to take up the full viewport. 
+- A map to show their location once they are running out of a studio. 
+- A live calendar with slots that users can book. 
 
+## UX Structure
 
 ## Testing 
 
@@ -209,18 +224,20 @@ HTML5 and CSS3 used.
 
 ### Frameworks, Libraries & Programs
 
+- Visual Studio Code as code editor. 
+- GitHub Desktop to store repository and allow me to code using VS code. 
+- GitHub to store repository online. 
 - Balsamiq cloud to design frameworks of the pages before development. 
 - Google fonts for the fonts.
 - Font Awesome for social media icons.
 - Bootstrap v5.3 for the responsive grid layout and carousel. 
-- Visual Studio Code to write code. 
-- GitHub Desktop to store repository and allow me to code using VS code. 
-- GitHub to store repository online. 
 
 ## Deployment
 
 The site was deployed to GitHub pages. To do this the steps followed were:
-- In the GitHub repository, go to Settings
+- Log into GitHub account
+- Open the correct repository 
+- In the GitHub repository, go to 'Settings'
 - From the source section drop-down menu, select the Master Branch
 - The live link can be found [HERE](https://sarah2244-4.github.io/Project-1-goldenapevisualmedia/)
 
