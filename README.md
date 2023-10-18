@@ -1,16 +1,16 @@
-# GoldenApe Visual Media
+# Golden Ape Visual Media
 
-GoldenApe Visual Media is a photographer portfolio inspired by a friend who is beginning a sports and wedding photography business. The target audience is women and men over the age of 18 who are either getting married or are athletes and want simple photos that stand out and tell a story.
+Golden Ape Visual Media is a photographer portfolio inspired by a friend who is beginning a sports and wedding photography business. The target audience is women and men over the age of 18 who are either getting married or are athletes and want simple photos that stand out and tell a story.
 
 The intent of the website is to showcase the photographer's work and provide an easy way to contact them.
 
 The site is live, the link to this is found [HERE](https://sarah2244-4.github.io/Project-1-goldenapevisualmedia/).
 
-![Website](assets/images/capture.JPG)
+![Website](assets/images/responsive-website-screenshot.JPG)
 
-##Contents
+## Contents
 
-- [UX](#UX)
+- [User Experience (UX)](#user-experience "User Experience (UX)")
   - [Site Purpose](#site-purpose "Site Purpose")
   - [Site Goal](#site-goal "Site Goal")
   - [Audience](#audience "Audience")
@@ -34,147 +34,156 @@ The site is live, the link to this is found [HERE](https://sarah2244-4.github.io
   - [Content](#content "Content")
   - [Media](#media "Media")
 
-## User Experience UX
+## User Experience (UX)
 
 ### Goal
 
-The goal of the site is for a clear, intiuitive website that contains all relevant information for users about the photographer. The photographer's goal is to introduce themselves and showcase a portfolio of images. They would also like to provide a way for users to communicate with them to find out more information or book a service. 
+The goal of the site is for a clear, intiuitive website that contains all relevant information for users about the photographer. 
+
+The photographer's goal is to introduce themselves and showcase a portfolio of images. They would also like to provide a way for users to communicate with them to find out more information or book a service. 
+
 Users should be able to view images easily and intuitively navigate the website to find out more about the photographer, view more images and contact them for more information. 
 
 ### Users
 
 Users will be adults looking for a professional photographer to shoot their event. They will be interested in viewing a selection of the photographer's images and contacting the photographer for more information. They may also want to find out availability or how a booking is run. 
 
--- The design is minimilistic to make it clear how to navigate the site and to put emphasis on the images to allow the pictures to speak for themselves.
-
 ### New User Stories
 
 A first time user of the site wants to be able to:
-Easily and intuitively navigate the site
-Find out what kind of photos the photographer takes
+- Easily and intuitively navigate the site
+- Find out what kind of photos the photographer takes
 Browse an existing portfolio of images
-View content on their social media
-Contact the photographer with any personal questions they may have
-Book a service
+- View content on their social media
+- Contact the photographer with any personal questions they may have
+- Book a service
 
 ### Existing User Stories
 
 An existing user wants to be able to:
-Contact the photographer easily
-View up to date images
+- Contact the photographer easily
+- View up to date images
 Find links to social media accounts
+- Book a service
 
-## UX Skeleton
+## Design
 
 ### Wireframes
 
-### Design choices
-
-- The website is as consistent as possible across all screen sizes. 
-- I chose to use Bootstrap to help with responsiveness as this site would likely be accessed on both mobile and desktop by different age groups.
-- It was important the gallery images could be viewed clearly as it's a main feature, which is why I made the decision to enlarge them in a modal.
-
-## UX Surface 
+- 
 
 ### Colour Scheme
 
-- The colour scheme of the site is greyscale in order to maintain a minimililstic feel to empahsise the images. There is a pop of gold to match the colours from the logo. Elements are contrasting with black and white to make them stand out.  
+- The main colour scheme of the site is greyscale in order to keep it minimililstic and empahsise the coloured images. 
+- There is a pop of gold to match the colours from the logo. 
 
 ### Typography
 
 - The handwritten font Shadows Into Light was chosen to provide a more personal feel. It was used on the site/business name 'Golden Ape Visual Media' and in the about me greeting and thank you as they make the about me message and business name more personal.
-- Mukta was chosen for the rest of the site as it is a clean sans-serif font which reads cleanly and fits in with the clean site look.
+- Mukta was chosen for the rest of the site as it is a clean sans-serif font which reads clearly and fits in with the minamilistic theme. 
 
 ### Imagery
 
-- All imagery used on the webiste is from a stock webiste which is referenced in the credits section. Images were chosen to give a pop of colour against the greyscale theme of the website. There is one black and white image so maintain some consistency in colour. 
-
-![Gallery images](assets/images/gallery.JPG)
+- The logo is an existing friend's logo. 
+- All other imagery used on the webiste is from a stock webiste which is referenced in the [credits](#credits "Credits") section. 
+- Images were chosen to give a pop of colour against the greyscale theme of the website. 
+- There is one black and white image to make it stand out as a wedding image rather than a sports event image.
 
 ### Effects 
 
 - Links are animated to change colour when a mouse hovers over them so they know they can click them. 
 
-## UX Scope Design
+
+### Design choices
+
+- The website is as consistent as possible across all screen sizes. 
+- I chose to use Bootstrap to help with responsiveness as this site would likely be accessed on both mobile and desktop by different age groups.
+- I decided the gold was needed to encorporate the company's logo colours into the site.
+- It was important the gallery images could be viewed clearly as it's a main feature, which is why I made the decision to enlarge them in a modal.
+- The design is minimilistic to make it clear how to navigate the site and to put emphasis on the images to allow the pictures to speak for themselves.
+
+## Features
 
 ### Existing Features
 
 #### Navigation Bar
+
+![Navigation bar](assets/images/navigation-bar.JPG)
+![Navigation bar for small screens](assets/images/navigation-bar-small-screens.JPG)
 
 - The logo and company name is on the left and the links are clear and easy to find on the right hand side.
 - This is the same across all pages for consistency. 
 - The logo is linked to the 'About' (home) page. 
 - Every main page for the site is linked so there is no need to use the browser back button. 
 - There is a toggle button on the navigation bar for small screens as the whole bar doesn't fit across the top. This is inuitive to use as it appears on many sites.
-- The buttons are animated so that when you hover over them there is a slow contrasting colour change to make it clear when you are able to click on it. 
+- The navigation buttons are animated so that when you hover over them there is a slow colour change to make it clear users are able to click on it. 
 
-![Header](assets/images/header.JPG)
-![Header buttons](assets/images/header-button-animation.JPG)
+### Hero
 
-### Hero Image
+![Hero](assets/images/hero.JPG)
 
 - Beneath the navigation bar there is a hero image, which is the same across all main pages for consistency. 
 - It features an enquiry button to focus users attention to the fact that there is a way to enquire more and encourage more users to fill in the contact form. 
 - The hero image doesn't show on the 404 page as it took away from the 404 error message, and the main aim of this page is to display the error and direct them back to an existing page. 
-- It also doesn't appear on the thank you page as a form has already been submitted so the enquire button isn't important at this point. 
+- It also doesn't appear on the thank you page as a form has already been submitted by the user so the thank you message is more important than the enquiry button at this point. 
 
 #### About Page  
 
-- The landing page gives inforamtion about the photographer so users get an introduction and are drawn into the site.
-- The about me text wraps around the image and this is responsive to all screen sizes. Small screen sizes would only have a very thin column of text next to the image, so this was changed so the image appears above the text to make it mroe readable. 
-- There is an animated carousel that showcases a small selection of images so people can see some of the portfolio while reading the about me section without having to visit the gallery page. This should make them want to click on the gallery page to view more. 
-
 ![About me](assets/images/about-me.JPG)
-![Carousel image](assets/images/carousel.JPG)
-![Carousel second image](assets/images/carousel-2.JPG)
+![Image carousel](assets/images/image-carousel.JPG)
+
+- The landing page gives inforamtion about the photographer so users get an introduction and are drawn into the site.
+- The about me text wraps around the image and this is responsive to all screen sizes. 
+- Small screen sizes would only have a very thin column of text next to the image, so the image appears above the text to make it more readable. 
+- There is an image carousel that showcases a small selection of images so people can see some of the portfolio while reading the about me section without having to visit the gallery page. This should make them want to click on the gallery page to view more. 
 
 #### Footer
 
+![NFooter](assets/images/footer.JPG)
+
 - The footer provides important contact information for users and clear social media links.
 - The background is a light gold to separate it from the body so that it subtly stands out. 
-- The social media links are coloured slightly darker to show they are links and are animated to change colour when the mouse hovers over or they are clicked. 
-- It is responsive and the columns stack for a smaller screen size as they don't fit across the page.
-
-![Footer](assets/images/footer.JPG)
-![Social button colour](assets/images/social-animation.JPG)
+- The social media links are coloured slightly darker to stand out and are animated to change colour when the mouse hovers over so users know they can be clicked.
+- It is responsive so the columns stack for a smaller screen size as they don't fit across the page.
 
 #### Gallery Page
 
-- The gallery page consists of 6 thumbnail images.
+![Gallery page for large screens](assets/images/gallery-large-screen.JPG)
+![Gallery page for medium screens](assets/images/gallery-medium-screen.JPG)
 
-- The thumbnails are responsive to different page sizes so they are never too small. They stack in a small screen, and as it gets bigger are in rows of 2 or 3 across.
-
-- When an image is clicked, it will appear larger in a modal. This is particularly useful for the larger screen sizes where it makes a large difference to the image size.
-
-![Gallery](assets/images/gallery.JPG)
-![Responsive gallery](assets/images/gallery-sm.JPG)
+- The gallery page provides a colourful porfolio of images that stand out from the rest of the website.
+- Images are thumbnails that fill the screen. These thumbnails are responsive to different page sizes so they are never too small. They stack individually in a small screen, and as the screen size gets bigger the thumbnails are in rows of 2 or 3 across.
+- When an image is clicked, it will appear larger in a modal. This is particularly useful for the larger screen sizes where it makes a large difference to the image size so users can see the image clearly to help make decision about hiring the photographer.
 
 #### Contact Page
 
-- This page contains a simple contact form. 
+![Contact form](assets/images/contact-form.JPG)
+
+- This page contains a contact form that users can complete to enquire further about the services offered, prices or anything else. 
 - The first input field is autofocused when loaded so the contact form is loaded straight into view and users can start filling it out without clicking with their mouse. 
-- Selected input have a box shadow so it is clear when an input is selected. This is particularly useful if a user is using the tab key to navigate the form.
+- Selected inputs have a coloured box shadow so it is clear when an input is selected. This is particularly useful if a user is using the tab key to navigate the form.
 - The borders for required inputs are red when they contain invalid information to provide a visual way of showing the input needs completing.
 
-![Form](assets/images/form.JPG)
+#### Thank You Page
 
-### Thank You Page
+![Thank you message](assets/images/thank-you.JPG)
 
-- This page was laods when a contact form has been submitted so users recieve feedback that they have submitted their form.
+- This page loads when a contact form has been submitted so users recieve feedback that they have submitted their form and feel assured the photographer will respond. 
 - The handwriting font was chosen as the thank you message to provide a personal feel. 
-- Users are directed back to home to encourage them to continue exploring the site.
-
-### 404 Page
-
-- This page was customised to maintain site-wide consistency and povide a clear direct route back to the home page along with the 404 error message.
+- Users are directed back to the home (about) page to encourage them to continue exploring the site.
 - The home link has been made clear as it is in bold and animates when a mouse hovers over it. 
+
+#### 404 Page
+
+![404 error message](assets/images/error-404.JPG)
+
+- This page was customised to maintain site-wide consistency and povide a clear direct route back to the home (about) page along with the 404 error message.
+- The home link is important has been made clear as it is in bold and animates when a mouse hovers over it. 
 
 ### Future Features
 
 - A map to show their location once they are running out of a studio. 
 - A live calendar with slots that users can book. 
-
-## UX Structure
 
 ## Testing 
 
@@ -251,7 +260,7 @@ The site was deployed to GitHub pages. To do this the steps followed were:
 
 ### Media
 
-- The header image came from [Unsplash](https://unsplash.com/)
+- The hero image came from [Unsplash](https://unsplash.com/)
 - [Camera by Miss Zhang](https://unsplash.com/photos/jz0xIgcwyL0)
 
 - All other images came from [ISO Republic](https://isorepublic.com/)
