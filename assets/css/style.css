@@ -224,8 +224,9 @@ footer {
 	margin: 20px auto;
 }
 
-.footer-sub {
+.general-sub {
 	font-weight: 500;
+	font-size: 1.25rem;
 }
 
 /* gallery */
