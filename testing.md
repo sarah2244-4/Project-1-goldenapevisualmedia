@@ -40,7 +40,28 @@ Below 284 px the navbar toggler moves below the logo.
 
 ### Resolved bugs
 
-Every time I added a background overlay to the header image it covered the buttons too. If I changed the brightness of the image it also changed the brightness of the buttons. I could not find a workaround so in the end I removed the overlay and used contrasting white text and buttons on a dark image. 
+- Every time I added a background overlay to the header image it covered the buttons too. If I changed the brightness of the image it also changed the brightness of the buttons. 
+    
+    I found the code 
+    ```
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    ```
+    from [here](https://dzuz14.medium.com/code-a-full-width-hero-background-image-with-transparent-overlay-95d757f8ff2c) to turn the overlay into a flex object which didn't interfere with text on top of it. 
+
+- I wanted the logo to be circular as it was designed for a circular profile image on facebook. As the image was a rectange rather than a square, the standard border radius didn't work. 
+
+    My first choice was to crop the image and re-upload it as a square. 
+
+    However, I came across code to make it into a circle 
+    [here](https://www.webfx.com/blog/web-design/circular-images-css/) by adding the code
+    ```
+    overflow: hidden;
+	top: 50%;
+	transform: translateY(20%);
+    ```
 
 The profile image took a lot of work. To start with it was cropped but I wanted the full image. To fix it I found the code
 ```
@@ -65,7 +86,8 @@ Once deployed Bootstrap, css stylesheets and images were not linked correctly. A
 
 ### Unresolved Bugs
 
-- When submitting an invalid form, the required messages don't appear below the input fields that need completing. I couldn't find any fix without removing all formatting for the form. However, the message still comes up if the mouse hovers over the inputs and the page scrolls up to the input with the problem. I decided to also add red borders to invalid fields as a visual cue the inputs weren't complete. 
+- When submitting an invalid form, the required messages don't always appear below the input fields that need completing. I couldn't find any fix without removing all formatting for the form. However, the message still comes up if the mouse hovers over the inputs and the page scrolls back up to suggest there is an issue. I decided to also add red borders to invalid fields as a visual cue the inputs weren't complete. 
+- At a screen width smaller than 294px the navigation toggler button moves below the logo. I didn't change this as most screens are not this small. 
 
 ## Validating
 
