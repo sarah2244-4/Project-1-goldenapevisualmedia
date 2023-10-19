@@ -154,7 +154,7 @@ An existing user wants to be able to:
 
 #### Footer
 
-![Footer](assets/images/footer.JPG)
+![Footer](assets/images/footer-gold.JPG)
 
 - The footer provides important contact information for users and clear social media links.
 - The background is a light gold to separate it from the body so that it subtly stands out. 
@@ -164,7 +164,9 @@ An existing user wants to be able to:
 #### Gallery Page
 
 ![Gallery page for large screens](assets/images/gallery-large-screen.JPG)
+
 ![Gallery page for medium screens](assets/images/gallery-medium-screen.JPG)
+
 ![Modal](assets/images/modal.JPG)
 
 - The gallery page provides a colourful porfolio of images that stand out from the rest of the website.
