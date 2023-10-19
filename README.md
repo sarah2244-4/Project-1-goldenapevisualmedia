@@ -4,7 +4,7 @@ Golden Ape Visual Media is a the company name for a friend's photography busines
 
 The site is live, the link to this is found [HERE](https://sarah2244-4.github.io/Project-1-goldenapevisualmedia/).
 
-![Website](assets/images/responsive-website-screenshot.JPG)
+![Website](assets/images/site-mockups.JPG)
 
 ## Contents
 

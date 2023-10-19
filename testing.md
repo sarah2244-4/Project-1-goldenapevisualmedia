@@ -31,7 +31,8 @@ Responsivity was testing using chrome developer tools.
 | Loads as expected | Yes | 
 | Responsive | Yes | 
 
-## User Stories
+
+## Testing User Stories
 
 ### Bugs
 
@@ -64,6 +65,7 @@ Once deployed Bootstrap, css stylesheets and images were not linked correctly. A
 
 ### Unresolved Bugs
 
+- When submitting an invalid form, the required messages don't appear below the input fields that need completing. I couldn't find any fix without removing all formatting for the form. However, the message still comes up if the mouse hovers over the inputs and the page scrolls up to the input with the problem. I decided to also add red borders to invalid fields as a visual cue the inputs weren't complete. 
 
 ## Validating
 
