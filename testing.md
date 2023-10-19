@@ -28,8 +28,51 @@ Responsivity was testing using chrome developer tools.
 
 | Tests for all pages | Chrome | Firefox | Edge | Opera |
 | --- | :---: | :---: | :---: | :---: |
-| Loads as expected | Yes | 
-| Responsive | Yes | 
+| Loads as expected | Yes | Yes | Yes | Yes |
+| Responsive | Yes | Yes | Yes | Yes |
+
+## Manual Tests
+
+| User Action | Expected response | Correct Response |
+| --- | --- | :---: |
+| CLick Logo | Navigates to index page | Yes | 
+| Click Logo Text | Navigates to index page | Yes |
+| Click About | Navigates to index (about) page | Yes |
+| Click Gallery | Navigates to gallery page | Yes |
+| Click Contact Me | Navigates to contact page | Yes |
+| Click Contact Me | Page autofocuses on first input | Yes |
+| Click NavBar Toggler | Navigation menu opens | Yes |
+| Click NavBar Toggler Again | Navigation menu closes | No |
+| Click Enquire | Navigates to contac page | Yes |
+| Click Facebook Icon | Navigates to Facebook in new tab | Yes |
+| Click Instagram Icon | Navigates to Instagram in new tab | Yes |
+| Click YouTube Icon | Navigates to YouTube in new tab | Yes |
+| Hover Over About | Font colour becomes gold | Yes |
+| Hover Over Gallery | Font colour becomes gold | Yes |
+| Hover Over Contact Me | Font colour becomes gold | Yes |
+| Hover Over Facebook Icon | Circle becomes black and icon becomes white | Yes |
+| Hover Over Instagram Icon | Circle becomes black and icon becomes white | Yes |
+| Hover Over YouTube Icon | Circle becomes black and icon becomes white | Yes |
+| Click an Image in the Gallery | Opens in a modal | Yes |
+| Click Cross on Modal | Closes Modal | Yes |
+| Click Screen Outside Modal | Closes Modal | Yes |
+| Invalid Input in Contact Form | Box border is red | Yes |
+| Valid Input in Contact Form | Box border is grey | Yes |
+| Input is Focused | Box shadow is gold | Yes |
+| Radio Button Selected | Fills in with grey colour | Yes |
+| Click Submit enquiry with Invalid Inputs | Does not submit | Yes |
+| Click Submit enquiry with Invalid First Name | Invalid message appears | No |
+| Click Submit enquiry with Invalid First Name | Input box border is red | Yes |
+| Click Submit enquiry with Invalid Last Name | Invalid message appears | Sometimes |
+| Click Submit enquiry with Invalid Last Name | Input box border is red | Yes | 
+| Click Submit enquiry with Invalid Email | Invalid message appears | Sometimes |
+| Click Submit enquiry with Invalid Email | Input box border is red | Yes |
+| Click Submit enquiry with Invalid Message | Invalid message appears | Yes |
+| Click Submit enquiry with Invalid Message | Input box border is red | Yes | 
+| Click Submit enquiry with Valid Inputs | Navigates to thank you page | Yes |
+| Click Home on Thank You Page | Navigates to index page | Yes |
+| Enter Non-Existent URL | Navigates to custom 404 page | Yes |
+| Click Home on 404 Page | Navigates to index page | Yes |
 
 
 ## Testing User Stories
@@ -55,7 +98,7 @@ Below 284 px the navbar toggler moves below the logo.
 
     My first choice was to crop the image and re-upload it as a square. 
 
-    However, I came across code to make it into a circle 
+    However, I came across code to center the rectangle into a circle 
     [here](https://www.webfx.com/blog/web-design/circular-images-css/) by adding the code
     ```
     overflow: hidden;
@@ -63,31 +106,20 @@ Below 284 px the navbar toggler moves below the logo.
 	transform: translateY(20%);
     ```
 
-The profile image took a lot of work. To start with it was cropped but I wanted the full image. To fix it I found the code
-```
-object-fit: scale-down;
-```
-on W3schools.
+- Initially the profile image on the index page was in its own div and the text was in a separate div. This meant I could not get the text to wrap around it. 
+    - I put image into the same div as the text and `float: left;` now works correctly.
 
-I then couldn't get the image into the right place. With a lot of trial and error, I managed to fix it by changing the height and the width of the image form px to % with the code
-```
-width: 100%;
-height: 55vh;
-```
-
-Once I had made the image responsive for a small screen, it was off-center and I finally managed to fix it by adding the code
-```
-display: block;
-```
-
-As I used a textarea from Bootstrap with a responsive number of columns, the input was a different style to the rest of the form. I found the CSS used to style inputs on and finally changed the border radius, border and box shadow so they all matched.
-
-Once deployed Bootstrap, css stylesheets and images were not linked correctly. After some searching, I hadn't included all of the correct Bootstrap links and I changed some of my link paths to link the css and images correctly. The header image still wouldn't show up no matter how many different file paths I did, but it turned out because I had replaced my file with a smaller file but kept the name, I needed to retype out the file again. I found this out by changing it to a different picture and then changing it back again. 
+- The submit button on the form would not load the thank you page. 
+    - I changed the POST method to GET. 
 
 ### Unresolved Bugs
 
-- When submitting an invalid form, the required messages don't always appear below the input fields that need completing. I couldn't find any fix without removing all formatting for the form. However, the message still comes up if the mouse hovers over the inputs and the page scrolls back up to suggest there is an issue. I decided to also add red borders to invalid fields as a visual cue the inputs weren't complete. 
-- At a screen width smaller than 294px the navigation toggler button moves below the logo. I didn't change this as most screens are not this small. 
+- When submitting an invalid form, the required messages don't always appear below the input fields that need completing. 
+    - I couldn't find a fix without removing all formatting for the form. However, the message still comes up if the mouse hovers over the inputs and the page scrolls back up to the incompleted form suggesting there is an issue. 
+    - I decided to also add red borders to invalid fields as a visual cue the inputs weren't complete. 
+- The menu doesn't close on a mobile view when I test on my device. 
+    - I copied the code that worked when I tried it on Bootstrap Docs directly into my site, but it didn't close on my site either. 
+    - I removed all styling from my navbar and this didn't fix it either. 
 
 ## Validating
 
