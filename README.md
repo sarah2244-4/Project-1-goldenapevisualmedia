@@ -8,29 +8,29 @@ The site is live, the link to this is found [HERE](https://sarah2244-4.github.io
 
 ## Contents
 
-- [User Experience (UX)](#user-experience "User Experience (UX)")
-  - [Site Purpose](#site-purpose "Site Purpose")
-  - [Site Goal](#site-goal "Site Goal")
-  - [Audience](#audience "Audience")
-  - [Communication](#communication "Communication")
-  - [Existing User Aims](#existing-user-aims "Existing User Aims")
-  - [New User Aims](#new-user-aims "New User Aims")
-- [Design](#design "Design")
-  - [Colour scheme](#colour-scheme "Colour Scheme")
-  - [Typography](#typography "Typography")
-  - [Imagery](#imagery "Imagery")
-- [Site Features](#site-features "Site Features")
-  - [Existing features](#existing-features "Existing Features")
-  - [Future features](#future-features "Future Features")
-- [Testing](#testing "Testing")
-- [Validating](#validating "Validating")
-- [Technlogies used](#technologies-used "Technologies Used")
-  - [Main languages](#main-languages "Main Languages")
-  - [Frameworks, Libraries & Programs](#frameworks-libraries-programs "Frameworks, Libraries & Programs")
-- [Deployment](#deployment "Deployment")
-- [Credits](#credits "Credits")
-  - [Content](#content "Content")
-  - [Media](#media "Media")
+- [User Experience (UX)](#user-experience-ux)
+  - [Goals](#goals)
+  - [Users](#users)
+  - [New User Stories](#new-user-stories)
+  - [Existing User Stories](#existing-user-stories)
+- [Design](#design)
+  - [Wireframes](#wireframes)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+  - [Effects](#effects)
+  - [Design Choices](#design-choices)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+  - [Future Features](#future-features)
+- [Testing](#testing)
+- [Technologies Used](#technologies-used)
+  - [Main Languages](#main-languages)
+  - [Frameworks, Libraries & Programs](#frameworks-libraries--programs)
+- [Deployment](#deployment)
+  - [GitHub Pages](#github-pages)
+  - [Local Source Files](#local-source-files)
+- [Credits](#credits)
 
 ## User Experience (UX)
 
@@ -50,9 +50,9 @@ Users will be adults looking for a professional photographer to shoot their even
 
 A first time user of the site wants to be able to:
 - Easily and intuitively navigate the site
-- Find out what kind of photos the photographer takes and what services are offered
+- Find out what type of photographer they are
 - Browse an existing portfolio of images
-- Navigate to their social media
+- Navigate to the social media
 - Contact the photographer with any personal questions they may have
 - Book a service
 
@@ -82,7 +82,7 @@ An existing user wants to be able to:
 
 ### Typography
 
-- The handwritten font Shadows Into Light was chosen to provide a more personal feel. It was used on the site/business name 'Golden Ape Visual Media' and in the about me greeting and thank you as they make the about me message and business name more personal.
+- The handwritten font Shadows Into Light was chosen to provide a more personal feel. It was used on the site/business name 'Golden Ape Visual Media' and in the about me greeting and thank you message as they make the about me message and business name more personal.
 - Mukta was chosen for the rest of the site as it is a clean sans-serif font which reads clearly and fits in with the minamilistic theme. 
 
 ### Imagery
@@ -219,11 +219,10 @@ HTML5 and CSS3 used.
 
 - Visual Studio Code as code editor. 
 - GitHub Desktop to store repository and allow me to code using VS code. 
-- GitHub to store repository online. 
-- Balsamiq cloud to design frameworks of the pages before development. 
-- Google fonts for the fonts.
-- Font Awesome for social media icons.
-- Bootstrap v5.3 for the responsive grid layout and carousel. 
+- [GitHub](https://github.com/) to store repository online.
+- [Google fonts](https://fonts.google.com/) for the fonts.
+- [Font Awesome](https://fontawesome.com/) for social media icons.
+- [Bootstrap v5.3](https://getbootstrap.com/) for the responsive grid layout, navbar, carousel and modal codes.
 
 ## Deployment
 
@@ -259,11 +258,15 @@ To clone the repsoitory:
 
 ### Content
 
-[W3 Schools](https://www.w3schools.com/css/css3_object-fit.asp) and [Digital Ocean](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit) helped me fix the profile image sizing. 
+- I referred back to code I had previously written throughout.
+- The navbar code comes from Bootstrap framework [here](https://getbootstrap.com/docs/5.3/components/navbar/).
+- The carousel code comes from Bootstrap framework [here](https://getbootstrap.com/docs/5.3/components/carousel/).
+- The modal also comes from Bootstrap framework [here](#https://getbootstrap.com/docs/5.3/components/modal/).
+- [Am I Responsive?](https://ui.dev/amiresponsive) to display a mock-up of my site in different viewports.
 
-(https://www.w3schools.com/css/css_form.asp) and (https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/) helped me style the form. 
+### Images
 
-### Media
+- The logo image was used with permission from a friend. 
 
 - The hero image came from [Unsplash](https://unsplash.com/)
 - [Camera by Miss Zhang](https://unsplash.com/photos/jz0xIgcwyL0)
@@ -275,3 +278,8 @@ To clone the repsoitory:
 - [Married couple laughing by Tom Pumford](https://isorepublic.com/photo/wedding-celebrations/)
 - [Surfers walking on beach by Wyncliffe](https://isorepublic.com/photo/water-sand-surfboard/)
 - [Runner stretching by Matt Moloney](https://isorepublic.com/photo/female-fitness-trainer/)
+
+### Advice
+
+- Thank you to the Code Institute community on Slack for providing advice, particularly on changing the method on my form and creating a thank you page for it to limk to.
+- Thank you to my mentor for his advice.

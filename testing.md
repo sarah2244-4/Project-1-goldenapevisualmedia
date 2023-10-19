@@ -2,9 +2,13 @@
 
 ## Contents
 
-- Responsivity
-- Browser Compatibility
-- User Stories
+- [Responsivity](#responsivity) 
+- [Browser Compatibility](#browser-compatibility) 
+- [Manual Tests](#manual-tests) 
+- [Testing User Stories](#testing-user-stories)
+- [Bugs](#bugs)
+- [Validating](#validating)
+- [Lighthouse Testing](#lighthouse-testing)
 
 ## Responsivity 
 
@@ -24,7 +28,7 @@ Responsivity was testing using chrome developer tools.
 | Contact form autofocuses | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | All footer information appears on screen | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
-## Browser compatibility
+## Browser Compatibility
 
 | Tests for all pages | Chrome | Firefox | Edge | Opera |
 | --- | :---: | :---: | :---: | :---: |
@@ -77,9 +81,27 @@ Responsivity was testing using chrome developer tools.
 
 ## Testing User Stories
 
-### Bugs
+### New Users
 
-Below 284 px the navbar toggler moves below the logo. 
+| Goal | Result | Image |
+| --- | --- | :---: |
+| Easily and intuitively navigate the site | 
+| Find out what type of photographer they are |
+| Browse an existing portfolio of images |
+| Navigate to the social media | 
+| Contact the photographer with any personal questions they may have | 
+| Book a service | 
+
+### Existing User Stories
+
+| Goal | Result | Image |
+| --- | --- | :---: |
+| Contact the photographer easily | 
+| View up to date images |
+| Find links to social media accountss | 
+| Book a service | 
+
+## Bugs
 
 ### Resolved bugs
 
@@ -128,7 +150,7 @@ I used the [W3 Validator](https://validator.w3.org/) to validate my code.
 Initial issues were: 
 
 - The 404 and thank you pages contained extra body tags. 
-- The modals contained example aria-lablledby values so I changed these to aria-label. The validator still comes up with a warning that these labels have been misused, however there is no text in the modals so I kept this as it was. 
+- The modals contained example aria-lablledby values that didn't match an existing ID as the modals did not have titles.
 
 All pages have been run through the validator and all files pass. 
 
@@ -136,25 +158,29 @@ All pages have been run through the validator and all files pass.
 
 ## Lighthouse Testing
 
-![Initial lighthouse test](assets/images/testing/lighthouse-initial-test.JPG)
+![Initial Lighthouse test](assets/images/testing/lighthouse-initial-test.JPG)
 
 Initial testing found issues with:
 
-- For performance images massively impacted load time. I then changed the image sizes to .WebP and resized them. 
+- For performance images massively impacted load time. I then resized them and changed the image types to .WebP.
 - The SEO had issues with a missing description in the head, which I added in. 
 - Accessibility showed that ARIA IDs were not unique. I was unsure how to recifty this as it came from the Bootstrap navbar. 
 - Also the footer headings had skipped heading order to h5 so I changed these to h2 and resized them in the style.css file. 
 
 Once everything had been fixed I tested the pages with Lighthouse again. 
 
-### Results of lighthouse testing
+### Final Results of Lighthouse Testing
 
-#### About Page
+#### Index Page
+
+![Index page Lighthouse test](assets/images/testing/lighthouse-index.JPG)
 
 #### Gallery Page
 
+![Gallery page Lighthouse test](assets/images/testing/lighthouse-gallery.JPG)
+
 #### Contact Page
 
-#### Thank You Page
+![Contact page Lighthouse test](assets/images/testing/lighthouse-contact.JPG)
 
-#### 404 Error Page
+[Return back to README.md](README.md)

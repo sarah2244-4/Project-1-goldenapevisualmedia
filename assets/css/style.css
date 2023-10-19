@@ -31,7 +31,6 @@
 
 /* logo */
 
-/* circular-logo code for making a rectange a circlefrom https://www.webfx.com/blog/web-design/circular-images-css/ */
 .circular-logo {
 	display: inline-block;
 	position: relative;
@@ -133,7 +132,6 @@
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
 	color: white;
-	/* https://dzuz14.medium.com/code-a-full-width-hero-background-image-with-transparent-overlay-95d757f8ff2c */
 	display: flex;
 	align-items: center;
 	justify-content: center;
