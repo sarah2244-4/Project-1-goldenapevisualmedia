@@ -93,9 +93,9 @@
 }
 
 .hero-btn {
-	border-radius: 50%;
-	background-color: white;
-	color: black;
+	background-color: #ffffff33;
+	color: white;
+	padding: 5px 15px;
 }
 
 .hero-btn:focus,
@@ -140,14 +140,10 @@
 	font-size: 4rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
 	.overlay h1 {
 		font-size: 2.5rem;
 	}
-}
-
-.jumbotron-header {
-	font-size: 3rem;
 }
 
 /* about me section */
