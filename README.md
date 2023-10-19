@@ -1,8 +1,6 @@
 # Golden Ape Visual Media
 
-Golden Ape Visual Media is a photographer portfolio inspired by a friend who is beginning a sports and wedding photography business. The target audience is women and men over the age of 18 who are either getting married or are athletes and want simple photos that stand out and tell a story.
-
-The intent of the website is to showcase the photographer's work and provide an easy way to contact them.
+Golden Ape Visual Media is a the company name for a friend's photography business. The website is intended to showcase a portfolio of work to show their journey as a sports and wedding photography photographer. It is also intended to drive users to their social media and get in touch with the photgrapher.
 
 The site is live, the link to this is found [HERE](https://sarah2244-4.github.io/Project-1-goldenapevisualmedia/).
 
@@ -70,7 +68,12 @@ An existing user wants to be able to:
 
 ### Wireframes
 
-- 
+| Index Page | Gallery Page | Contact Page |
+| :---: | :---: | :---: |
+| [Mobile](assets/images/wireframes/index-mobile.jpg) | [Mobile](assets/images/wireframes/gallery-mobile.jpg) | [Mobile](assets/images/wireframes/contact-mobile.jpg) |
+| [Tablet](assets/images/wireframes/index-tablet.jpg) | [Tablet](assets/images/wireframes/gallery-tablet.jpg) |[Tablet](assets/images/wireframes/contact-tablet.jpg)|
+| [Desktop](assets/images/wireframes/index-desktop.jpg) | [Desktop](assets/images/wireframes/gallery-desktop.jpg) | [Desktop](assets/images/wireframes/contact-desktop.jpg) |
+
 
 ### Colour Scheme
 
@@ -84,14 +87,18 @@ An existing user wants to be able to:
 
 ### Imagery
 
-- The logo is an existing friend's logo. 
+- The logo is a friend's existing business' existing logo. It was used with permission. 
 - All other imagery used on the webiste is from a stock webiste which is referenced in the [credits](#credits "Credits") section. 
 - Images were chosen to give a pop of colour against the greyscale theme of the website. 
 - There is one black and white image to make it stand out as a wedding image rather than a sports event image.
 
 ### Effects 
 
-- Links are animated to change colour when a mouse hovers over them so users know they can click them. 
+- Links in the navigation bar and footer are animated to change colour when a mouse hovers over them so users know they can click them. 
+
+![Navigation links hover effect](assets/images/nav-link-hover.JPG)
+
+![Social media icons hover effect](assets/images/social-hover.JPG)
 
 ### Design choices
 
@@ -100,6 +107,7 @@ An existing user wants to be able to:
 - I decided the gold was needed to encorporate the company's logo colours into the site.
 - It was important the gallery images could be viewed clearly as it's a main feature, which is why I made the decision to enlarge them in a modal.
 - The design is minimilistic to make it clear how to navigate the site and to put emphasis on the images to allow the pictures to speak for themselves.
+- The hero image was maintained on every page as the title for each page. The enquire button on the hero image stayed on the contact page, as when clicked the page would re-load to focus lower down on the form. 
 
 ## Features
 
@@ -108,8 +116,8 @@ An existing user wants to be able to:
 #### Navigation Bar
 
 ![Navigation bar](assets/images/navigation-bar.JPG)
+
 ![Navigation bar for small screens](assets/images/navigation-bar-small-screens.JPG)
-![Navigation links hover effect](assets/images/nav-link-hover.JPG)
 
 - The logo and company name is on the left and the links are clear and easy to find on the right hand side.
 - This is the same across all pages for consistency. 
@@ -124,6 +132,7 @@ An existing user wants to be able to:
 
 - Beneath the navigation bar there is a hero image, which is the same across all main pages for consistency. 
 - It features an enquiry button to focus users attention to the fact that there is a way to enquire more and encourage more users to fill in the contact form. 
+- The enquire button was styled so the background was white to stand out from the background whilst also maintaining white text to fit in with the text in the navigation bar. 
 - The hero image doesn't show on the 404 page as it took away from the 404 error message, and the main aim of this page is to display the error and direct them back to an existing page. 
 - It also doesn't appear on the thank you page as a form has already been submitted by the user so the thank you message is more important than the enquiry button at this point. 
 
@@ -135,7 +144,7 @@ An existing user wants to be able to:
 - The about me text wraps around the image and this is responsive to all screen sizes. 
 - Small screen sizes would only have a very thin column of text next to the image, so the image appears above the text to make it more readable. 
 
-### Image Carousel 
+#### Image Carousel 
 
 ![Image carousel](assets/images/image-carousel.JPG)
 
@@ -146,7 +155,6 @@ An existing user wants to be able to:
 #### Footer
 
 ![Footer](assets/images/footer.JPG)
-![Social media icons hover effect](assets/images/social-hover.JPG)
 
 - The footer provides important contact information for users and clear social media links.
 - The background is a light gold to separate it from the body so that it subtly stands out. 
@@ -217,12 +225,33 @@ HTML5 and CSS3 used.
 
 ## Deployment
 
-The site was deployed to GitHub pages. To do this the steps followed were:
+### GitHub Pages
+
+To deploy the site to GitHub pages the steps followed were:
 - Log into GitHub account
 - Open the correct repository 
 - In the GitHub repository, go to 'Settings'
-- From the source section drop-down menu, select the Master Branch
-- The live link can be found [HERE](https://sarah2244-4.github.io/Project-1-goldenapevisualmedia/)
+- In the settings menu, go to 'Pages' under the subheading 'Code and automation'
+- Under the heading 'Source', select 'Deploy from a branch' from the dropdown menu
+- Under the heading 'Branch', ensure 'main' is selected from the dropdown and the folder selected is '/(root)'
+- Click 'Save' and the website will be live in a few minutes
+- The live link can be found [here](https://sarah2244-4.github.io/Project-1-goldenapevisualmedia/)
+
+### Local Source Files
+
+To deploy the website using source files follow the steps:
+- Open the GitHub repository [here](https://github.com/sarah2244-4/Project-1-goldenapevisualmedia)
+- In the repository click on the green '<> Code' dropdown
+- Select 'Download ZIP'
+- Navigate to the Zip file in your file explorer and open it
+- Right click on the 'index.html' file and open with the chosen browser
+
+To clone the repsoitory: 
+- Open the GitHub repository [here](https://github.com/sarah2244-4/Project-1-goldenapevisualmedia)
+- In the repository click on the green '<> Code' dropdow
+- Copy the HTTPS URL link
+- Open the terminal on the computer's IDE
+- Type in `git clone` followed by the copied URL 
 
 ## Credits
 

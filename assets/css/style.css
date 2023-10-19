@@ -140,7 +140,7 @@
 	font-size: 4rem;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
 	.overlay h1 {
 		font-size: 2.5rem;
 	}

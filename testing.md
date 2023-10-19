@@ -6,15 +6,36 @@
 - Browser Compatibility
 - User Stories
 
-Throughout development I used Chrome Dev Tools to check responsivity of all the elements. 
-
 ## Responsivity 
+
+Responsivity was testing using chrome developer tools. 
+
+| Tests for all pages | iPhone SE | Pixel 5 | Samsung Galazy S8+ | iPad Air | Surface Pro 7 | Nest Hub | Desktop |
+| --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| Responsive | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Navbar toggle button | Yes | Yes | Yes | N/A | N/A | N/A | N/A |
+| Full Navbar | N/A | N/A | N/A | Yes | Yes | Yes | Yes |
+| Hero text fits on screen | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Links open correctly | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Form does not submit with invalid information | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Form submission works correctly | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| All images are seen | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Good sizing of gallery images | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Contact form autofocuses | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| All footer information appears on screen | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
 ## Browser compatibility
 
+| Tests for all pages | Chrome | Firefox | Edge | Opera |
+| --- | :---: | :---: | :---: | :---: |
+| Loads as expected | Yes | 
+| Responsive | Yes | 
+
 ## User Stories
 
-### Bug
+### Bugs
+
+Below 284 px the navbar toggler moves below the logo. 
 
 ### Resolved bugs
 
