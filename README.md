@@ -53,16 +53,15 @@ A first time user of the site wants to be able to:
 - Find out what type of photographer they are
 - Browse an existing portfolio of images
 - Navigate to the social media
-- Contact the photographer with any personal questions they may have
+- Contact the photographer with questions or to book them
 - Book a service
 
 ### Existing User Stories
 
 An existing user wants to be able to:
-- Contact the photographer easily
+- Contact the photographer with questions or to book them
 - View up to date images
 - Find links to social media accounts
-- Book a service
 
 ## Design
 
@@ -263,23 +262,23 @@ To clone the repsoitory:
 - The carousel code comes from Bootstrap framework [here](https://getbootstrap.com/docs/5.3/components/carousel/).
 - The modal also comes from Bootstrap framework [here](#https://getbootstrap.com/docs/5.3/components/modal/).
 - [Am I Responsive?](https://ui.dev/amiresponsive) to display a mock-up of my site in different viewports.
+- To center the rectangle logo into a circle I used [this website](https://www.webfx.com/blog/web-design/circular-images-css/) to help me.
+- To fix the hero image overlay I used [this website](https://dzuz14.medium.com/code-a-full-width-hero-background-image-with-transparent-overlay-95d757f8ff2c) to help me.
 
 ### Images
 
 - The logo image was used with permission from a friend. 
-
 - The hero image came from [Unsplash](https://unsplash.com/)
-- [Camera by Miss Zhang](https://unsplash.com/photos/jz0xIgcwyL0)
-
+  - [Camera by Miss Zhang](https://unsplash.com/photos/jz0xIgcwyL0)
 - All other images came from [ISO Republic](https://isorepublic.com/)
-- [Boxer punching punch bag by Hermes Rivera](https://isorepublic.com/photo/boxing-training/)
-- [Runner starting a race by Shotstash](https://isorepublic.com/photo/woman-ready-to-run/)
-- [American football by Keith Johnston](https://isorepublic.com/photo/american-football-game/)
-- [Married couple laughing by Tom Pumford](https://isorepublic.com/photo/wedding-celebrations/)
-- [Surfers walking on beach by Wyncliffe](https://isorepublic.com/photo/water-sand-surfboard/)
-- [Runner stretching by Matt Moloney](https://isorepublic.com/photo/female-fitness-trainer/)
+  - [Boxer punching punch bag by Hermes Rivera](https://isorepublic.com/photo/boxing-training/)
+  - [Runner starting a race by Shotstash](https://isorepublic.com/photo/woman-ready-to-run/)
+  - [American football by Keith Johnston](https://isorepublic.com/photo/american-football-game/)
+  - [Married couple laughing by Tom Pumford](https://isorepublic.com/photo/wedding-celebrations/)
+  - [Surfers walking on beach by Wyncliffe](https://isorepublic.com/photo/water-sand-surfboard/)
+  - [Runner stretching by Matt Moloney](https://isorepublic.com/photo/female-fitness-trainer/)
 
 ### Advice
 
-- Thank you to the Code Institute community on Slack for providing advice, particularly on changing the method on my form and creating a thank you page for it to limk to.
+- Thank you to the Code Institute community on Slack for providing advice, particularly on changing the method on my form and advising to create a thank you page for it to limk to.
 - Thank you to my mentor for his advice.

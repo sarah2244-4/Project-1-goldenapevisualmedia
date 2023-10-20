@@ -85,27 +85,25 @@ Responsivity was testing using chrome developer tools.
 
 | Goal | Result | Image |
 | --- | --- | :---: |
-| Easily and intuitively navigate the site | 
-| Find out what type of photographer they are |
-| Browse an existing portfolio of images |
-| Navigate to the social media | 
-| Contact the photographer with any personal questions they may have | 
-| Book a service | 
+| Easily and intuitively navigate the site | A navigation bar is fixed to the top of every page which provides links to all main pages. The toggle for small screens is familiar to use. Users never need to click the back button. | [navigation bar](assets/images/navigation-bar.JPG) [navigation for small screens](assets/images/navigation-bar-small-screens.JPG) |
+| Find out what type of photographer they are | A large header on the hero image contrasts the dark background and tells users what service the photographer provides on the index page. Users can also read the about me section on the index page to find out more. | [hero image](assets/images/hero.JPG) [about me section]() |
+| Browse an existing portfolio of images | A carousel is present on the index page so they can view a selection from the landing page. The gallery page provides a larger selection that can be viewed on a larger scale in a modal. | [carousel](assets/images/image-carousel.JPG) [gallery](assets/images/gallery-large-screen.JPG) [modal](assets/images/modal.JPG) |
+| Navigate to the social media | The footer provides external links to the social media pages. Users will expect to find them here. The links open in new tabs so they don't lose the website. | [footer](assets/images/footer-gold.JPG) |
+| Contact the photographer with questions or to book them | A contact form is provided that can be filled with any message. The footer also provides a contact phone number, email, and social media that could be used to contact the photographer. | [contact form](assets/images/contact-form.JPG) [contact details](assets/images/footer-gold.JPG) |
 
 ### Existing User Stories
 
 | Goal | Result | Image |
 | --- | --- | :---: |
-| Contact the photographer easily | 
-| View up to date images |
-| Find links to social media accountss | 
-| Book a service | 
+| Contact the photographer with questions or to book them | A contact form is provided that can be filled with any message. The footer also provides a contact phone number, email, and social media that could be used to contact the photographer. | [contact form](assets/images/contact-form.JPG) [contact details](assets/images/footer-gold.JPG) |
+| View up to date images | The gallery page shows the photographer's portfolio. | [gallery](assets/images/gallery-large-screen.JPG) |
+| Find links to social media accounts | The footer provides external links to the social media pages. Users will expect to find them here. The links open in new tabs so they don't lose the website. | [footer](assets/images/footer-gold.JPG) |
 
 ## Bugs
 
 ### Resolved bugs
 
-- Every time I added a background overlay to the header image it covered the buttons too. If I changed the brightness of the image it also changed the brightness of the buttons. 
+- Every time I added a background overlay to the header image it covered the buttons too. If I changed the brightness of the image it also changed the brightness of the buttons even though I did exactly the same as the example project. 
     
     I found the code 
     ```
@@ -158,6 +156,8 @@ All pages have been run through the validator and all files pass.
 
 ## Lighthouse Testing
 
+### Initial Testing 
+
 ![Initial Lighthouse test](assets/images/testing/lighthouse-initial-test.JPG)
 
 Initial testing found issues with:
@@ -169,7 +169,7 @@ Initial testing found issues with:
 
 Once everything had been fixed I tested the pages with Lighthouse again. 
 
-### Final Results of Lighthouse Testing
+### Final Results of Testing
 
 #### Index Page
 
